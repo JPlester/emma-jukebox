@@ -1,0 +1,842 @@
+[
+  {
+    "title": "Your Last Page",
+    "display": "Your Last Page",
+    "kind": "original",
+    "takes": 51,
+    "command": "!jukebox Your Last Page"
+  },
+  {
+    "title": "The Perfect Place",
+    "display": "The Perfect Place",
+    "kind": "original",
+    "takes": 23,
+    "command": "!jukebox The Perfect Place"
+  },
+  {
+    "title": "Don't Slow Down",
+    "display": "Don't Slow Down",
+    "kind": "original",
+    "takes": 18,
+    "command": "!jukebox Don't Slow Down"
+  },
+  {
+    "title": "Embers Only Glow",
+    "display": "Embers Only Glow",
+    "kind": "original",
+    "takes": 15,
+    "command": "!jukebox Embers Only Glow"
+  },
+  {
+    "title": "With the Seasons",
+    "display": "With the Seasons",
+    "kind": "original",
+    "takes": 12,
+    "command": "!jukebox With the Seasons"
+  },
+  {
+    "title": "Ballerina",
+    "display": "Ballerina",
+    "kind": "original",
+    "takes": 8,
+    "command": "!jukebox Ballerina"
+  },
+  {
+    "title": "Cut the Line",
+    "display": "Cut the Line",
+    "kind": "original",
+    "takes": 8,
+    "command": "!jukebox Cut the Line"
+  },
+  {
+    "title": "Idol",
+    "display": "Idol",
+    "kind": "original",
+    "takes": 8,
+    "command": "!jukebox Idol"
+  },
+  {
+    "title": "Dancing in the Dark",
+    "display": "Dancing in the Dark by Bruce Springsteen",
+    "kind": "cover",
+    "takes": 7,
+    "command": "!jukebox Dancing in the Dark"
+  },
+  {
+    "title": "I Dare You",
+    "display": "I Dare You",
+    "kind": "original",
+    "takes": 7,
+    "command": "!jukebox I Dare You"
+  },
+  {
+    "title": "Forest Fire",
+    "display": "Forest Fire",
+    "kind": "original",
+    "takes": 6,
+    "command": "!jukebox Forest Fire"
+  },
+  {
+    "title": "Hex",
+    "display": "Hex",
+    "kind": "original",
+    "takes": 6,
+    "command": "!jukebox Hex"
+  },
+  {
+    "title": "I Don't Wanna Say Goodbye",
+    "display": "I Don't Wanna Say Goodbye",
+    "kind": "original",
+    "takes": 6,
+    "command": "!jukebox I Don't Wanna Say Goodbye"
+  },
+  {
+    "title": "Temptation",
+    "display": "Temptation",
+    "kind": "original",
+    "takes": 6,
+    "command": "!jukebox Temptation"
+  },
+  {
+    "title": "Can't Afford To Be In Love",
+    "display": "Can't Afford To Be In Love",
+    "kind": "original",
+    "takes": 5,
+    "command": "!jukebox Can't Afford To Be In Love"
+  },
+  {
+    "title": "Cherry On Top (LIVE)",
+    "display": "Cherry On Top (LIVE)",
+    "kind": "original",
+    "takes": 5,
+    "command": "!jukebox Cherry On Top (LIVE)"
+  },
+  {
+    "title": "Don't Speak",
+    "display": "Don't Speak by No Doubt",
+    "kind": "cover",
+    "takes": 5,
+    "command": "!jukebox Don't Speak"
+  },
+  {
+    "title": "Fade Away",
+    "display": "Fade Away",
+    "kind": "original",
+    "takes": 5,
+    "command": "!jukebox Fade Away"
+  },
+  {
+    "title": "HOWL",
+    "display": "HOWL",
+    "kind": "original",
+    "takes": 5,
+    "command": "!jukebox HOWL"
+  },
+  {
+    "title": "Late Night Swim",
+    "display": "Late Night Swim",
+    "kind": "original",
+    "takes": 5,
+    "command": "!jukebox Late Night Swim"
+  },
+  {
+    "title": "Simon Says (Acoustic)",
+    "display": "Simon Says (Acoustic)",
+    "kind": "original",
+    "takes": 5,
+    "command": "!jukebox Simon Says (Acoustic)"
+  },
+  {
+    "title": "Breathe (2 AM)",
+    "display": "Breathe (2 AM) by Anna Nalick",
+    "kind": "cover",
+    "takes": 4,
+    "command": "!jukebox Breathe (2 AM)"
+  },
+  {
+    "title": "Carmelite Road",
+    "display": "Carmelite Road",
+    "kind": "original",
+    "takes": 4,
+    "command": "!jukebox Carmelite Road"
+  },
+  {
+    "title": "D.O.A.",
+    "display": "D.O.A. by Foo Fighters",
+    "kind": "cover",
+    "takes": 4,
+    "command": "!jukebox D.O.A."
+  },
+  {
+    "title": "Didn't I (Blow Your Mind This Time)",
+    "display": "Didn't I (Blow Your Mind This Time) by The Delfonics",
+    "kind": "cover",
+    "takes": 4,
+    "command": "!jukebox Didn't I (Blow Your Mind This Time)"
+  },
+  {
+    "title": "Get Lost",
+    "display": "Get Lost",
+    "kind": "original",
+    "takes": 4,
+    "command": "!jukebox Get Lost"
+  },
+  {
+    "title": "Little Villains",
+    "display": "Little Villains",
+    "kind": "original",
+    "takes": 4,
+    "command": "!jukebox Little Villains"
+  },
+  {
+    "title": "Only Happy When It Rains",
+    "display": "Only Happy When It Rains by Garbage",
+    "kind": "cover",
+    "takes": 4,
+    "command": "!jukebox Only Happy When It Rains"
+  },
+  {
+    "title": "Queen of This Castle (Acoustic)",
+    "display": "Queen of This Castle (Acoustic)",
+    "kind": "original",
+    "takes": 4,
+    "command": "!jukebox Queen of This Castle (Acoustic)"
+  },
+  {
+    "title": "Second Chances",
+    "display": "Second Chances",
+    "kind": "original",
+    "takes": 4,
+    "command": "!jukebox Second Chances"
+  },
+  {
+    "title": "Skeletons",
+    "display": "Skeletons",
+    "kind": "original",
+    "takes": 4,
+    "command": "!jukebox Skeletons"
+  },
+  {
+    "title": "Chasing Storms",
+    "display": "Chasing Storms",
+    "kind": "original",
+    "takes": 3,
+    "command": "!jukebox Chasing Storms"
+  },
+  {
+    "title": "Confetti (Acoustic)",
+    "display": "Confetti (Acoustic)",
+    "kind": "original",
+    "takes": 3,
+    "command": "!jukebox Confetti (Acoustic)"
+  },
+  {
+    "title": "Day-to-Day",
+    "display": "Day-to-Day",
+    "kind": "original",
+    "takes": 3,
+    "command": "!jukebox Day-to-Day"
+  },
+  {
+    "title": "Lion's Den",
+    "display": "Lion's Den",
+    "kind": "original",
+    "takes": 3,
+    "command": "!jukebox Lion's Den"
+  },
+  {
+    "title": "Red Flags",
+    "display": "Red Flags",
+    "kind": "original",
+    "takes": 3,
+    "command": "!jukebox Red Flags"
+  },
+  {
+    "title": "Rewrite",
+    "display": "Rewrite",
+    "kind": "original",
+    "takes": 3,
+    "command": "!jukebox Rewrite"
+  },
+  {
+    "title": "Scream Bloody Murder",
+    "display": "Scream Bloody Murder",
+    "kind": "original",
+    "takes": 3,
+    "command": "!jukebox Scream Bloody Murder"
+  },
+  {
+    "title": "Three Dot Bubble",
+    "display": "Three Dot Bubble",
+    "kind": "original",
+    "takes": 3,
+    "command": "!jukebox Three Dot Bubble"
+  },
+  {
+    "title": "Walk",
+    "display": "Walk by Foo Fighters",
+    "kind": "cover",
+    "takes": 3,
+    "command": "!jukebox Walk"
+  },
+  {
+    "title": "All My Love",
+    "display": "All My Love by Coldplay",
+    "kind": "cover",
+    "takes": 2,
+    "command": "!jukebox All My Love"
+  },
+  {
+    "title": "Ask Me To Dance (Acoustic)",
+    "display": "Ask Me To Dance (Acoustic)",
+    "kind": "original",
+    "takes": 2,
+    "command": "!jukebox Ask Me To Dance (Acoustic)"
+  },
+  {
+    "title": "Better Now",
+    "display": "Better Now by Post Malone",
+    "kind": "cover",
+    "takes": 2,
+    "command": "!jukebox Better Now"
+  },
+  {
+    "title": "Boulevard of Broken Dreams",
+    "display": "Boulevard of Broken Dreams by Green Day",
+    "kind": "cover",
+    "takes": 2,
+    "command": "!jukebox Boulevard of Broken Dreams"
+  },
+  {
+    "title": "Get Paid",
+    "display": "Get Paid",
+    "kind": "original",
+    "takes": 2,
+    "command": "!jukebox Get Paid"
+  },
+  {
+    "title": "Ghost On Fire",
+    "display": "Ghost On Fire",
+    "kind": "original",
+    "takes": 2,
+    "command": "!jukebox Ghost On Fire"
+  },
+  {
+    "title": "In the End",
+    "display": "In the End by Linkin Park",
+    "kind": "cover",
+    "takes": 2,
+    "command": "!jukebox In the End"
+  },
+  {
+    "title": "In Your Shadow",
+    "display": "In Your Shadow",
+    "kind": "original",
+    "takes": 2,
+    "command": "!jukebox In Your Shadow"
+  },
+  {
+    "title": "Karma's Gonna Come",
+    "display": "Karma's Gonna Come",
+    "kind": "original",
+    "takes": 2,
+    "command": "!jukebox Karma's Gonna Come"
+  },
+  {
+    "title": "Kerosene",
+    "display": "Kerosene by Miranda Lambert",
+    "kind": "cover",
+    "takes": 2,
+    "command": "!jukebox Kerosene"
+  },
+  {
+    "title": "Mixtape",
+    "display": "Mixtape",
+    "kind": "original",
+    "takes": 2,
+    "command": "!jukebox Mixtape"
+  },
+  {
+    "title": "One More Light",
+    "display": "One More Light by Linkin Park",
+    "kind": "cover",
+    "takes": 2,
+    "command": "!jukebox One More Light"
+  },
+  {
+    "title": "Put Me Out",
+    "display": "Put Me Out",
+    "kind": "original",
+    "takes": 2,
+    "command": "!jukebox Put Me Out"
+  },
+  {
+    "title": "Small Talk",
+    "display": "Small Talk",
+    "kind": "original",
+    "takes": 2,
+    "command": "!jukebox Small Talk"
+  },
+  {
+    "title": "Stuck in Sausalito (Acoustic)",
+    "display": "Stuck in Sausalito (Acoustic)",
+    "kind": "original",
+    "takes": 2,
+    "command": "!jukebox Stuck in Sausalito (Acoustic)"
+  },
+  {
+    "title": "Swing Life Away",
+    "display": "Swing Life Away by Rise Against",
+    "kind": "cover",
+    "takes": 2,
+    "command": "!jukebox Swing Life Away"
+  },
+  {
+    "title": "The Emptiness Machine",
+    "display": "The Emptiness Machine by Linkin Park",
+    "kind": "cover",
+    "takes": 2,
+    "command": "!jukebox The Emptiness Machine"
+  },
+  {
+    "title": "Walking in Memphis",
+    "display": "Walking in Memphis by Marc Cohn",
+    "kind": "cover",
+    "takes": 2,
+    "command": "!jukebox Walking in Memphis"
+  },
+  {
+    "title": "Whisper",
+    "display": "Whisper",
+    "kind": "original",
+    "takes": 2,
+    "command": "!jukebox Whisper"
+  },
+  {
+    "title": "Young Lovers",
+    "display": "Young Lovers",
+    "kind": "original",
+    "takes": 2,
+    "command": "!jukebox Young Lovers"
+  },
+  {
+    "title": "Aerials",
+    "display": "Aerials by System of a Down",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Aerials"
+  },
+  {
+    "title": "Alkaline",
+    "display": "Alkaline by Sleep Token",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Alkaline"
+  },
+  {
+    "title": "Baby Boy",
+    "display": "Baby Boy by Beyonce",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Baby Boy"
+  },
+  {
+    "title": "Be More Kind",
+    "display": "Be More Kind by Frank Turner",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Be More Kind"
+  },
+  {
+    "title": "Beautiful Stranger",
+    "display": "Beautiful Stranger by Madonna",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Beautiful Stranger"
+  },
+  {
+    "title": "Best of You",
+    "display": "Best of You by Foo Fighters",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Best of You"
+  },
+  {
+    "title": "Bitch",
+    "display": "Bitch by Meredith Brooks",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Bitch"
+  },
+  {
+    "title": "Black Hole Sun",
+    "display": "Black Hole Sun by Soundgarden",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Black Hole Sun"
+  },
+  {
+    "title": "Burden",
+    "display": "Burden",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Burden"
+  },
+  {
+    "title": "Call You Again",
+    "display": "Call You Again",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Call You Again"
+  },
+  {
+    "title": "Cardigan",
+    "display": "Cardigan by Taylor Swift",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Cardigan"
+  },
+  {
+    "title": "Coma",
+    "display": "Coma by Taylor Acorn",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Coma"
+  },
+  {
+    "title": "Come Clean",
+    "display": "Come Clean by Hilary Duff",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Come Clean"
+  },
+  {
+    "title": "Crush",
+    "display": "Crush by Jennifer Paige",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Crush"
+  },
+  {
+    "title": "Dakota",
+    "display": "Dakota by Stereophonics",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Dakota"
+  },
+  {
+    "title": "Daylight Robbery (Acoustic)",
+    "display": "Daylight Robbery (Acoustic)",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Daylight Robbery (Acoustic)"
+  },
+  {
+    "title": "Distracted",
+    "display": "Distracted",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Distracted"
+  },
+  {
+    "title": "Double Vision (Acoustic)",
+    "display": "Double Vision (Acoustic)",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Double Vision (Acoustic)"
+  },
+  {
+    "title": "Drive",
+    "display": "Drive by Incubus",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Drive"
+  },
+  {
+    "title": "Fell For A Daydreamer",
+    "display": "Fell For A Daydreamer",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Fell For A Daydreamer"
+  },
+  {
+    "title": "Flavour",
+    "display": "Flavour",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Flavour"
+  },
+  {
+    "title": "Fly Away",
+    "display": "Fly Away by Lenny Kravitz",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Fly Away"
+  },
+  {
+    "title": "Green Light",
+    "display": "Green Light",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Green Light"
+  },
+  {
+    "title": "Head Over Feet",
+    "display": "Head Over Feet by Alanis Morissette",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Head Over Feet"
+  },
+  {
+    "title": "Heartbeats",
+    "display": "Heartbeats by Jose Gonzalez",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Heartbeats"
+  },
+  {
+    "title": "Homesick",
+    "display": "Homesick",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Homesick"
+  },
+  {
+    "title": "Hummingbird Heartbeat",
+    "display": "Hummingbird Heartbeat by Katy Perry",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Hummingbird Heartbeat"
+  },
+  {
+    "title": "I Want It That Way",
+    "display": "I Want It That Way by Backstreet Boys",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox I Want It That Way"
+  },
+  {
+    "title": "I'm Not Alone",
+    "display": "I'm Not Alone",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox I'm Not Alone"
+  },
+  {
+    "title": "I'm With You",
+    "display": "I'm With You by Avril Lavigne",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox I'm With You"
+  },
+  {
+    "title": "Iris",
+    "display": "Iris by Goo Goo Dolls",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Iris"
+  },
+  {
+    "title": "Ironic",
+    "display": "Ironic by Alanis Morissette",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Ironic"
+  },
+  {
+    "title": "Jumpsuit",
+    "display": "Jumpsuit by twenty one pilots",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Jumpsuit"
+  },
+  {
+    "title": "Lifeboat (Acoustic)",
+    "display": "Lifeboat (Acoustic)",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Lifeboat (Acoustic)"
+  },
+  {
+    "title": "Love Will Tear Us Apart",
+    "display": "Love Will Tear Us Apart by Joy Division",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Love Will Tear Us Apart"
+  },
+  {
+    "title": "Love You To Death",
+    "display": "Love You To Death",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Love You To Death"
+  },
+  {
+    "title": "Mobile",
+    "display": "Mobile by Avril Lavigne",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Mobile"
+  },
+  {
+    "title": "Monster",
+    "display": "Monster by Meg Myers",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Monster"
+  },
+  {
+    "title": "My Kinda Crazy",
+    "display": "My Kinda Crazy",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox My Kinda Crazy"
+  },
+  {
+    "title": "Numb",
+    "display": "Numb by Linkin Park",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Numb"
+  },
+  {
+    "title": "Ocean Eyes",
+    "display": "Ocean Eyes by Billie Eilish",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Ocean Eyes"
+  },
+  {
+    "title": "Out of Luck",
+    "display": "Out of Luck",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Out of Luck"
+  },
+  {
+    "title": "Papercut",
+    "display": "Papercut by Linkin Park",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Papercut"
+  },
+  {
+    "title": "Pathways",
+    "display": "Pathways",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Pathways"
+  },
+  {
+    "title": "Pompeii",
+    "display": "Pompeii by Bastille",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Pompeii"
+  },
+  {
+    "title": "Pure Shores",
+    "display": "Pure Shores by All Saints",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Pure Shores"
+  },
+  {
+    "title": "Put Your Records On",
+    "display": "Put Your Records On by Corinne Bailey Rae",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Put Your Records On"
+  },
+  {
+    "title": "Rehab",
+    "display": "Rehab by Amy Winehouse",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Rehab"
+  },
+  {
+    "title": "Ring of Fire",
+    "display": "Ring of Fire by Johnny Cash",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Ring of Fire"
+  },
+  {
+    "title": "Sanctuary",
+    "display": "Sanctuary",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Sanctuary"
+  },
+  {
+    "title": "Skeletons Don't Scare Me",
+    "display": "Skeletons Don't Scare Me",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Skeletons Don't Scare Me"
+  },
+  {
+    "title": "This Love",
+    "display": "This Love by Maroon 5",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox This Love"
+  },
+  {
+    "title": "Through Glass",
+    "display": "Through Glass by Stone Sour",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Through Glass"
+  },
+  {
+    "title": "Tired Eyes",
+    "display": "Tired Eyes",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Tired Eyes"
+  },
+  {
+    "title": "What's Up",
+    "display": "What's Up by 4 Non Blondes",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox What's Up"
+  },
+  {
+    "title": "Wheels",
+    "display": "Wheels by Foo Fighters",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Wheels"
+  },
+  {
+    "title": "When I Come Around",
+    "display": "When I Come Around by Green Day",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox When I Come Around"
+  },
+  {
+    "title": "Where I Stood",
+    "display": "Where I Stood by Missy Higgins",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Where I Stood"
+  },
+  {
+    "title": "Wild Thoughts",
+    "display": "Wild Thoughts",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Wild Thoughts"
+  },
+  {
+    "title": "You're My Home",
+    "display": "You're My Home",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox You're My Home"
+  }
+]

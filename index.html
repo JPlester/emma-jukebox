@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jukebox Requests</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&family=Quicksand:wght@400;500;600;700&display=swap">
+<style>
+:root{--ground:#f2f2f5;--surface:#fff;--surface-2:#e8e8ee;--ink:#16151c;--ink-2:#4b4a57;--ink-3:#6f6e7c;--rule:#d6d5de;--amber:#92590a;--amber-soft:#f6e6c8;--green:#1d6b47;--green-soft:#d8ece2}
+@media (prefers-color-scheme: dark){:root{--ground:#131219;--surface:#1b1a23;--surface-2:#23222d;--ink:#eceaf2;--ink-2:#b4b1c2;--ink-3:#8a8797;--rule:#33313f;--amber:#e3ab4a;--amber-soft:#3a2c11;--green:#71c79c;--green-soft:#16301f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:Montserrat,sans-serif;font-size:17px;line-height:1.45}
+.wrap{max-width:40rem;margin:0 auto;padding:1.4rem 1rem 5rem}
+@media (min-width: 800px){
+  .wrap{max-width:68rem;padding:2rem 2rem 5rem}
+  .find{margin-left:-2rem;margin-right:-2rem;padding-left:2rem;padding-right:2rem}
+}
+h1{font-family:Quicksand,sans-serif;font-weight:400;font-size:clamp(1.8rem,5vw,2.4rem);letter-spacing:.01em;margin:.2rem 0 .35rem}
+.eyebrow{font-family:Montserrat,sans-serif;font-weight:600;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin:0}
+.standfirst{color:var(--ink-2);margin:0 0 1.1rem}
+.onair{margin:0 0 1.15rem;background:var(--surface);border:1px solid var(--rule)}
+.onair summary{cursor:pointer;font-family:Montserrat,sans-serif;font-weight:600;font-size:.85rem;letter-spacing:.03em;padding:.75rem 1rem;list-style:none}
+.onair summary::-webkit-details-marker{display:none}
+.onair .inside{padding:0 1rem 1rem}
+.onair .eyebrow{margin:0 0 .35rem}
+#now{margin:0 0 .85rem}
+#now strong{font-family:Quicksand,sans-serif;font-weight:500;font-size:1.15rem}
+#now .who,#queue .who{color:var(--ink-3);font-size:.85rem}
+#queue{margin:0;padding:0;list-style:none}
+#queue li{border:0;padding:.22rem 0;display:flex;gap:.55rem;justify-content:space-between;flex-wrap:wrap;align-items:baseline}
+#queue li.empty{color:var(--ink-3)}
+#queue .n{font-family:Montserrat,sans-serif;font-weight:600;font-size:.75rem;color:var(--ink-3);min-width:1.2rem}
+.find{position:sticky;top:0;z-index:2;background:var(--ground);padding:.7rem 0 .55rem;border-bottom:1px solid var(--rule);margin:0 -1rem 0;padding-left:1rem;padding-right:1rem}
+#q{width:100%;font:inherit;font-size:1.15rem;padding:.7rem .85rem;border:2px solid var(--ink);background:var(--surface);color:var(--ink)}
+#q:focus{outline:3px solid var(--amber-soft);outline-offset:2px}
+.filters{display:flex;gap:.35rem;flex-wrap:wrap;margin:.65rem 0 0}
+.filters button{font-family:Montserrat,sans-serif;font-weight:600;font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;border:1px solid var(--rule);background:var(--surface);color:var(--ink);padding:.32rem .55rem;cursor:pointer}
+.filters button.on{background:var(--ink);color:var(--ground)}
+#count{font-size:.85rem;color:var(--ink-3);margin:.7rem 0 .2rem}
+li{list-style:none;display:flex;justify-content:space-between;gap:.8rem;flex-wrap:wrap;padding:.75rem 0;border-bottom:1px solid var(--rule);align-items:baseline}
+ul{margin:0;padding:0}
+.meta{display:block;color:var(--ink-3);font-size:.85rem;margin-top:.12rem}
+.btns{display:flex;gap:.3rem;flex-wrap:wrap}
+.btns button{background:var(--ink);color:var(--ground);border:0;padding:.32rem .55rem;cursor:pointer;font-family:Montserrat,sans-serif;font-weight:600;font-size:.78rem}
+.btns button.alt{background:var(--amber-soft);color:var(--amber)}
+.cover strong{font-style:italic}
+#empty{display:none;padding:1.4rem 0;color:var(--ink-2)}
+.hint{font-size:.82rem;color:var(--ink-3);margin:.4rem 0 0}
+.btns button.did{background:var(--green);color:#fff}
+#toast{position:fixed;left:50%;bottom:1.1rem;transform:translateX(-50%);background:var(--green);color:#fff;padding:.85rem 1.1rem;z-index:9;max-width:92vw;box-shadow:0 10px 28px rgba(0,0,0,.28);display:none}
+#toast.show{display:block}
+#toast b{display:block;font-family:Montserrat,sans-serif;font-weight:600;font-size:.95rem;margin:.15rem 0 .35rem}
+</style></head>
+<body><div class="wrap">
+<h1>Jukebox Requests</h1>
+<p class="standfirst">Browse songs from Our Treehouse archive below! Once chosen, type !jukebox [song name] into Twitch chat. Our jukebox will then randomly select a past performance of your chosen track which will be automatically added to the stream queue</p>
+<div id="toast" role="status" aria-live="polite"></div>
+<details class="onair" id="queue-fold">
+  <summary id="queue-summary">Queue</summary>
+  <div class="inside">
+    <p class="eyebrow">On now</p>
+    <div id="now">Nothing on just now.</div>
+    <p class="eyebrow">Up next</p>
+    <ol id="queue"><li class="empty">Nothing waiting.</li></ol>
+  </div>
+</details>
+<div class="find">
+  <label for="q" class="eyebrow">Search</label>
+  <input id="q" type="search" placeholder="Your Last Page, Forest Fire..." autocomplete="off" enterkeyhint="search" autofocus>
+  <div class="filters">
+    <button type="button" class="on" data-kind="all">All</button>
+    <button type="button" data-kind="original">Originals</button>
+    <button type="button" data-kind="cover">Covers</button>
+  </div>
+  <p class="hint">120 songs.</p>
+</div>
+<p id="count"></p>
+<p id="empty">Nothing like that. Try fewer letters.</p>
+<ul id="list"><li data-kind="original" data-sound="guitar" data-search="your last page your last page your last page original" data-letter="Y"><div><strong>Your Last Page</strong><span class="meta">original · 51 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Your Last Page">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="the perfect place the perfect place the perfect place original" data-letter="T"><div><strong>The Perfect Place</strong><span class="meta">original · 23 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox The Perfect Place">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="don't slow down don't slow down dont slow down original" data-letter="D"><div><strong>Don't Slow Down</strong><span class="meta">original · 18 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Don't Slow Down">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="embers only glow embers only glow embers only glow original" data-letter="E"><div><strong>Embers Only Glow</strong><span class="meta">original · 15 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Embers Only Glow">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="with the seasons with the seasons with the seasons original" data-letter="W"><div><strong>With the Seasons</strong><span class="meta">original · 12 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox With the Seasons">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="ballerina ballerina ballerina original" data-letter="B"><div><strong>Ballerina</strong><span class="meta">original · 8 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Ballerina">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="cut the line cut the line cut the line original" data-letter="C"><div><strong>Cut the Line</strong><span class="meta">original · 8 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Cut the Line">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="idol idol idol original" data-letter="I"><div><strong>Idol</strong><span class="meta">original · 8 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Idol">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="dancing in the dark by bruce springsteen dancing in the dark dancing in the dark by bruce springsteen cover" data-letter="D"><div><strong>Dancing in the Dark by Bruce Springsteen</strong><span class="meta">cover · 7 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Dancing in the Dark">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="i dare you i dare you i dare you original" data-letter="I"><div><strong>I Dare You</strong><span class="meta">original · 7 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox I Dare You">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="forest fire forest fire forest fire original" data-letter="F"><div><strong>Forest Fire</strong><span class="meta">original · 6 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Forest Fire">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="hex hex hex original" data-letter="H"><div><strong>Hex</strong><span class="meta">original · 6 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Hex">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="i don't wanna say goodbye i don't wanna say goodbye i dont wanna say goodbye original" data-letter="I"><div><strong>I Don't Wanna Say Goodbye</strong><span class="meta">original · 6 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox I Don't Wanna Say Goodbye">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="temptation temptation temptation original" data-letter="T"><div><strong>Temptation</strong><span class="meta">original · 6 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Temptation">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="can't afford to be in love can't afford to be in love cant afford to be in love original" data-letter="C"><div><strong>Can't Afford To Be In Love</strong><span class="meta">original · 5 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Can't Afford To Be In Love">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="cherry on top (live) cherry on top (live) cherry on top (live) original" data-letter="C"><div><strong>Cherry On Top (LIVE)</strong><span class="meta">original · 5 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Cherry On Top (LIVE)">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="don't speak by no doubt don't speak dont speak by no doubt cover" data-letter="D"><div><strong>Don't Speak by No Doubt</strong><span class="meta">cover · 5 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Don't Speak">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="fade away fade away fade away original" data-letter="F"><div><strong>Fade Away</strong><span class="meta">original · 5 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Fade Away">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="howl howl howl original" data-letter="H"><div><strong>HOWL</strong><span class="meta">original · 5 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox HOWL">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="late night swim late night swim late night swim original" data-letter="L"><div><strong>Late Night Swim</strong><span class="meta">original · 5 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Late Night Swim">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="simon says (acoustic) simon says (acoustic) simon says (acoustic) original" data-letter="S"><div><strong>Simon Says (Acoustic)</strong><span class="meta">original · 5 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Simon Says (Acoustic)">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="breathe (2 am) by anna nalick breathe (2 am) breathe (2 am) by anna nalick cover" data-letter="B"><div><strong>Breathe (2 AM) by Anna Nalick</strong><span class="meta">cover · 4 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Breathe (2 AM)">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="carmelite road carmelite road carmelite road original" data-letter="C"><div><strong>Carmelite Road</strong><span class="meta">original · 4 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Carmelite Road">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="d.o.a. by foo fighters d.o.a. doa by foo fighters cover" data-letter="D"><div><strong>D.O.A. by Foo Fighters</strong><span class="meta">cover · 4 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox D.O.A.">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="didn't i (blow your mind this time) by the delfonics didn't i (blow your mind this time) didnt i (blow your mind this time) by the delfonics cover" data-letter="D"><div><strong>Didn't I (Blow Your Mind This Time) by The Delfonics</strong><span class="meta">cover · 4 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Didn't I (Blow Your Mind This Time)">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="get lost get lost get lost original" data-letter="G"><div><strong>Get Lost</strong><span class="meta">original · 4 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Get Lost">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="little villains little villains little villains original" data-letter="L"><div><strong>Little Villains</strong><span class="meta">original · 4 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Little Villains">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="only happy when it rains by garbage only happy when it rains only happy when it rains by garbage cover" data-letter="O"><div><strong>Only Happy When It Rains by Garbage</strong><span class="meta">cover · 4 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Only Happy When It Rains">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="queen of this castle (acoustic) queen of this castle (acoustic) queen of this castle (acoustic) original" data-letter="Q"><div><strong>Queen of This Castle (Acoustic)</strong><span class="meta">original · 4 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Queen of This Castle (Acoustic)">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="second chances second chances second chances original" data-letter="S"><div><strong>Second Chances</strong><span class="meta">original · 4 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Second Chances">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="skeletons skeletons skeletons original" data-letter="S"><div><strong>Skeletons</strong><span class="meta">original · 4 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Skeletons">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="chasing storms chasing storms chasing storms original" data-letter="C"><div><strong>Chasing Storms</strong><span class="meta">original · 3 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Chasing Storms">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="confetti (acoustic) confetti (acoustic) confetti (acoustic) original" data-letter="C"><div><strong>Confetti (Acoustic)</strong><span class="meta">original · 3 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Confetti (Acoustic)">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="day-to-day day-to-day day-to-day original" data-letter="D"><div><strong>Day-to-Day</strong><span class="meta">original · 3 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Day-to-Day">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="lion's den lion's den lions den original" data-letter="L"><div><strong>Lion's Den</strong><span class="meta">original · 3 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Lion's Den">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="red flags red flags red flags original" data-letter="R"><div><strong>Red Flags</strong><span class="meta">original · 3 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Red Flags">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="rewrite rewrite rewrite original" data-letter="R"><div><strong>Rewrite</strong><span class="meta">original · 3 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Rewrite">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="scream bloody murder scream bloody murder scream bloody murder original" data-letter="S"><div><strong>Scream Bloody Murder</strong><span class="meta">original · 3 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Scream Bloody Murder">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="three dot bubble three dot bubble three dot bubble original" data-letter="T"><div><strong>Three Dot Bubble</strong><span class="meta">original · 3 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Three Dot Bubble">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="walk by foo fighters walk walk by foo fighters cover" data-letter="W"><div><strong>Walk by Foo Fighters</strong><span class="meta">cover · 3 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Walk">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="all my love by coldplay all my love all my love by coldplay cover" data-letter="A"><div><strong>All My Love by Coldplay</strong><span class="meta">cover · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox All My Love">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="ask me to dance (acoustic) ask me to dance (acoustic) ask me to dance (acoustic) original" data-letter="A"><div><strong>Ask Me To Dance (Acoustic)</strong><span class="meta">original · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Ask Me To Dance (Acoustic)">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="better now by post malone better now better now by post malone cover" data-letter="B"><div><strong>Better Now by Post Malone</strong><span class="meta">cover · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Better Now">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="boulevard of broken dreams by green day boulevard of broken dreams boulevard of broken dreams by green day cover" data-letter="B"><div><strong>Boulevard of Broken Dreams by Green Day</strong><span class="meta">cover · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Boulevard of Broken Dreams">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="get paid get paid get paid original" data-letter="G"><div><strong>Get Paid</strong><span class="meta">original · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Get Paid">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="ghost on fire ghost on fire ghost on fire original" data-letter="G"><div><strong>Ghost On Fire</strong><span class="meta">original · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Ghost On Fire">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="in the end by linkin park in the end in the end by linkin park cover" data-letter="I"><div><strong>In the End by Linkin Park</strong><span class="meta">cover · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox In the End">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="in your shadow in your shadow in your shadow original" data-letter="I"><div><strong>In Your Shadow</strong><span class="meta">original · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox In Your Shadow">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="karma's gonna come karma's gonna come karmas gonna come original" data-letter="K"><div><strong>Karma's Gonna Come</strong><span class="meta">original · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Karma's Gonna Come">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="kerosene by miranda lambert kerosene kerosene by miranda lambert cover" data-letter="K"><div><strong>Kerosene by Miranda Lambert</strong><span class="meta">cover · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Kerosene">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="mixtape mixtape mixtape original" data-letter="M"><div><strong>Mixtape</strong><span class="meta">original · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Mixtape">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="one more light by linkin park one more light one more light by linkin park cover" data-letter="O"><div><strong>One More Light by Linkin Park</strong><span class="meta">cover · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox One More Light">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="put me out put me out put me out original" data-letter="P"><div><strong>Put Me Out</strong><span class="meta">original · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Put Me Out">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="small talk small talk small talk original" data-letter="S"><div><strong>Small Talk</strong><span class="meta">original · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Small Talk">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="stuck in sausalito (acoustic) stuck in sausalito (acoustic) stuck in sausalito (acoustic) original" data-letter="S"><div><strong>Stuck in Sausalito (Acoustic)</strong><span class="meta">original · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Stuck in Sausalito (Acoustic)">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="swing life away by rise against swing life away swing life away by rise against cover" data-letter="S"><div><strong>Swing Life Away by Rise Against</strong><span class="meta">cover · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Swing Life Away">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="the emptiness machine by linkin park the emptiness machine the emptiness machine by linkin park cover" data-letter="T"><div><strong>The Emptiness Machine by Linkin Park</strong><span class="meta">cover · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox The Emptiness Machine">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="walking in memphis by marc cohn walking in memphis walking in memphis by marc cohn cover" data-letter="W"><div><strong>Walking in Memphis by Marc Cohn</strong><span class="meta">cover · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Walking in Memphis">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="whisper whisper whisper original" data-letter="W"><div><strong>Whisper</strong><span class="meta">original · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Whisper">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="young lovers young lovers young lovers original" data-letter="Y"><div><strong>Young Lovers</strong><span class="meta">original · 2 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Young Lovers">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="aerials by system of a down aerials aerials by system of a down cover" data-letter="A"><div><strong>Aerials by System of a Down</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Aerials">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="alkaline by sleep token alkaline alkaline by sleep token cover" data-letter="A"><div><strong>Alkaline by Sleep Token</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Alkaline">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="baby boy by beyonce baby boy baby boy by beyonce cover" data-letter="B"><div><strong>Baby Boy by Beyonce</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Baby Boy">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="be more kind by frank turner be more kind be more kind by frank turner cover" data-letter="B"><div><strong>Be More Kind by Frank Turner</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Be More Kind">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="beautiful stranger by madonna beautiful stranger beautiful stranger by madonna cover" data-letter="B"><div><strong>Beautiful Stranger by Madonna</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Beautiful Stranger">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="best of you by foo fighters best of you best of you by foo fighters cover" data-letter="B"><div><strong>Best of You by Foo Fighters</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Best of You">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="bitch by meredith brooks bitch bitch by meredith brooks cover" data-letter="B"><div><strong>Bitch by Meredith Brooks</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Bitch">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="black hole sun by soundgarden black hole sun black hole sun by soundgarden cover" data-letter="B"><div><strong>Black Hole Sun by Soundgarden</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Black Hole Sun">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="burden burden burden original" data-letter="B"><div><strong>Burden</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Burden">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="call you again call you again call you again original" data-letter="C"><div><strong>Call You Again</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Call You Again">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="cardigan by taylor swift cardigan cardigan by taylor swift cover" data-letter="C"><div><strong>Cardigan by Taylor Swift</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Cardigan">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="coma by taylor acorn coma coma by taylor acorn cover" data-letter="C"><div><strong>Coma by Taylor Acorn</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Coma">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="come clean by hilary duff come clean come clean by hilary duff cover" data-letter="C"><div><strong>Come Clean by Hilary Duff</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Come Clean">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="crush by jennifer paige crush crush by jennifer paige cover" data-letter="C"><div><strong>Crush by Jennifer Paige</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Crush">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="dakota by stereophonics dakota dakota by stereophonics cover" data-letter="D"><div><strong>Dakota by Stereophonics</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Dakota">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="daylight robbery (acoustic) daylight robbery (acoustic) daylight robbery (acoustic) original" data-letter="D"><div><strong>Daylight Robbery (Acoustic)</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Daylight Robbery (Acoustic)">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="distracted distracted distracted original" data-letter="D"><div><strong>Distracted</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Distracted">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="double vision (acoustic) double vision (acoustic) double vision (acoustic) original" data-letter="D"><div><strong>Double Vision (Acoustic)</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Double Vision (Acoustic)">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="drive by incubus drive drive by incubus cover" data-letter="D"><div><strong>Drive by Incubus</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Drive">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="fell for a daydreamer fell for a daydreamer fell for a daydreamer original" data-letter="F"><div><strong>Fell For A Daydreamer</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Fell For A Daydreamer">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="flavour flavour flavour original" data-letter="F"><div><strong>Flavour</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Flavour">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="fly away by lenny kravitz fly away fly away by lenny kravitz cover" data-letter="F"><div><strong>Fly Away by Lenny Kravitz</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Fly Away">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="green light green light green light original" data-letter="G"><div><strong>Green Light</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Green Light">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="head over feet by alanis morissette head over feet head over feet by alanis morissette cover" data-letter="H"><div><strong>Head Over Feet by Alanis Morissette</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Head Over Feet">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="heartbeats by jose gonzalez heartbeats heartbeats by jose gonzalez cover" data-letter="H"><div><strong>Heartbeats by Jose Gonzalez</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Heartbeats">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="homesick homesick homesick original" data-letter="H"><div><strong>Homesick</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Homesick">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="hummingbird heartbeat by katy perry hummingbird heartbeat hummingbird heartbeat by katy perry cover" data-letter="H"><div><strong>Hummingbird Heartbeat by Katy Perry</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Hummingbird Heartbeat">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="i want it that way by backstreet boys i want it that way i want it that way by backstreet boys cover" data-letter="I"><div><strong>I Want It That Way by Backstreet Boys</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox I Want It That Way">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="i'm not alone i'm not alone im not alone original" data-letter="I"><div><strong>I'm Not Alone</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox I'm Not Alone">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="i'm with you by avril lavigne i'm with you im with you by avril lavigne cover" data-letter="I"><div><strong>I'm With You by Avril Lavigne</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox I'm With You">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="iris by goo goo dolls iris iris by goo goo dolls cover" data-letter="I"><div><strong>Iris by Goo Goo Dolls</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Iris">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="ironic by alanis morissette ironic ironic by alanis morissette cover" data-letter="I"><div><strong>Ironic by Alanis Morissette</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Ironic">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="jumpsuit by twenty one pilots jumpsuit jumpsuit by twenty one pilots cover" data-letter="J"><div><strong>Jumpsuit by twenty one pilots</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Jumpsuit">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="lifeboat (acoustic) lifeboat (acoustic) lifeboat (acoustic) original" data-letter="L"><div><strong>Lifeboat (Acoustic)</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Lifeboat (Acoustic)">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="love will tear us apart by joy division love will tear us apart love will tear us apart by joy division cover" data-letter="L"><div><strong>Love Will Tear Us Apart by Joy Division</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Love Will Tear Us Apart">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="love you to death love you to death love you to death original" data-letter="L"><div><strong>Love You To Death</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Love You To Death">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="mobile by avril lavigne mobile mobile by avril lavigne cover" data-letter="M"><div><strong>Mobile by Avril Lavigne</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Mobile">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="monster by meg myers monster monster by meg myers cover" data-letter="M"><div><strong>Monster by Meg Myers</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Monster">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="my kinda crazy my kinda crazy my kinda crazy original" data-letter="M"><div><strong>My Kinda Crazy</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox My Kinda Crazy">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="numb by linkin park numb numb by linkin park cover" data-letter="N"><div><strong>Numb by Linkin Park</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Numb">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="ocean eyes by billie eilish ocean eyes ocean eyes by billie eilish cover" data-letter="O"><div><strong>Ocean Eyes by Billie Eilish</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Ocean Eyes">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="out of luck out of luck out of luck original" data-letter="O"><div><strong>Out of Luck</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Out of Luck">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="papercut by linkin park papercut papercut by linkin park cover" data-letter="P"><div><strong>Papercut by Linkin Park</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Papercut">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="pathways pathways pathways original" data-letter="P"><div><strong>Pathways</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Pathways">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="pompeii by bastille pompeii pompeii by bastille cover" data-letter="P"><div><strong>Pompeii by Bastille</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Pompeii">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="pure shores by all saints pure shores pure shores by all saints cover" data-letter="P"><div><strong>Pure Shores by All Saints</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Pure Shores">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="put your records on by corinne bailey rae put your records on put your records on by corinne bailey rae cover" data-letter="P"><div><strong>Put Your Records On by Corinne Bailey Rae</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Put Your Records On">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="rehab by amy winehouse rehab rehab by amy winehouse cover" data-letter="R"><div><strong>Rehab by Amy Winehouse</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Rehab">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="ring of fire by johnny cash ring of fire ring of fire by johnny cash cover" data-letter="R"><div><strong>Ring of Fire by Johnny Cash</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Ring of Fire">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="sanctuary sanctuary sanctuary original" data-letter="S"><div><strong>Sanctuary</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Sanctuary">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="skeletons don't scare me skeletons don't scare me skeletons dont scare me original" data-letter="S"><div><strong>Skeletons Don't Scare Me</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Skeletons Don't Scare Me">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="this love by maroon 5 this love this love by maroon 5 cover" data-letter="T"><div><strong>This Love by Maroon 5</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox This Love">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="through glass by stone sour through glass through glass by stone sour cover" data-letter="T"><div><strong>Through Glass by Stone Sour</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Through Glass">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="tired eyes tired eyes tired eyes original" data-letter="T"><div><strong>Tired Eyes</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Tired Eyes">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="what's up by 4 non blondes what's up whats up by 4 non blondes cover" data-letter="W"><div><strong>What's Up by 4 Non Blondes</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox What's Up">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="wheels by foo fighters wheels wheels by foo fighters cover" data-letter="W"><div><strong>Wheels by Foo Fighters</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Wheels">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="when i come around by green day when i come around when i come around by green day cover" data-letter="W"><div><strong>When I Come Around by Green Day</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox When I Come Around">Copy</button></div></li>
+<li data-kind="cover" data-sound="guitar" data-search="where i stood by missy higgins where i stood where i stood by missy higgins cover" data-letter="W"><div><strong>Where I Stood by Missy Higgins</strong><span class="meta">cover · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Where I Stood">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="wild thoughts wild thoughts wild thoughts original" data-letter="W"><div><strong>Wild Thoughts</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox Wild Thoughts">Copy</button></div></li>
+<li data-kind="original" data-sound="guitar" data-search="you're my home you're my home youre my home original" data-letter="Y"><div><strong>You're My Home</strong><span class="meta">original · 1 takes</span></div><div class="btns"><button type="button" data-cmd="!jukebox You're My Home">Copy</button></div></li></ul>
+<script>
+const q = document.getElementById('q');
+const items = Array.from(document.querySelectorAll('#list li'));
+const count = document.getElementById('count');
+const empty = document.getElementById('empty');
+let sound = 'all';
+let kind = 'all';
+document.querySelectorAll('.filters button').forEach(b => {
+  b.onclick = () => {
+    if (b.dataset.sound) {
+      sound = b.dataset.sound;
+      document.querySelectorAll('.filters [data-sound]').forEach(x => x.classList.toggle('on', x === b));
+    }
+    if (b.dataset.kind) {
+      kind = (kind === b.dataset.kind) ? 'all' : b.dataset.kind;
+      document.querySelectorAll('.filters [data-kind]').forEach(x => x.classList.toggle('on', x.dataset.kind === kind));
+    }
+    apply();
+  };
+});
+function apply(){
+  const needle = q.value.trim().toLowerCase().replace(/['.,]/g,'');
+  let n = 0;
+  items.forEach(li => {
+    const hay = li.getAttribute('data-search') || '';
+    const s = li.getAttribute('data-sound') || '';
+    const k = li.getAttribute('data-kind') || '';
+    const okQ = !needle || hay.indexOf(needle) >= 0;
+    const okS = sound === 'all' || s.indexOf(sound) >= 0;
+    const okK = kind === 'all' || k === kind;
+    const show = okQ && okS && okK;
+    li.style.display = show ? '' : 'none';
+    if (show) n++;
+  });
+  count.textContent = n + (n === 1 ? ' song' : ' songs');
+  empty.style.display = n ? 'none' : 'block';
+}
+q.addEventListener('input', apply);
+q.addEventListener('search', apply);
+apply();
+function whoLine(who){
+  if(!who || who === 'idle' || who === 'cli') return '';
+  return '<span class="who">' + String(who).replace(/</g,'&lt;') + '</span>';
+}
+async function tick(){
+  try{
+    const d = await (await fetch('https://storage.googleapis.com/jukebox.emmamcgann.com/now.json',{cache:'no-store'})).json();
+    const n = d.now;
+    const nowEl = document.getElementById('now');
+    const waiting = d.queue || d.next || [];
+    const summary = document.getElementById('queue-summary');
+    const nowTitle = (n && n.title) ? String(n.title) : '';
+    if(summary){
+      const bits = ['Queue'];
+      if(nowTitle) bits.push(nowTitle);
+      bits.push(waiting.length ? (waiting.length + ' waiting') : 'nothing waiting');
+      summary.textContent = bits.join(' - ');
+    }
+    if(n && n.title){
+      const label = d.live ? '' : '<span class="who">last up</span> ';
+      nowEl.innerHTML = label + '<strong>' + String(n.title).replace(/</g,'&lt;') + '</strong> ' + whoLine(n.who);
+    }else{
+      nowEl.textContent = d.live ? 'Nothing on just now.' : 'Not on tonight. Mon Wed Fri Sun from 8.';
+    }
+    const box = document.getElementById('queue');
+    if(!waiting.length){
+      box.innerHTML = '<li class="empty">Nothing waiting.</li>';
+    }else{
+      box.innerHTML = waiting.map((x,i) => {
+        const title = String(x.title||'').replace(/</g,'&lt;');
+        return '<li><span><span class="n">' + (i+1) + '</span> ' + title + '</span>' + whoLine(x.who) + '</li>';
+      }).join('');
+    }
+  }catch(e){}
+}
+tick(); setInterval(tick, 10000);
+function copyText(text){
+  if (navigator.clipboard && window.isSecureContext) {
+    return navigator.clipboard.writeText(text);
+  }
+  return new Promise((resolve, reject) => {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly','');
+    ta.style.position = 'fixed';
+    ta.style.left = '-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    ta.setSelectionRange(0, text.length);
+    try { document.execCommand('copy') ? resolve() : reject(new Error('copy')); }
+    catch (e) { reject(e); }
+    document.body.removeChild(ta);
+  });
+}
+const toast = document.getElementById('toast');
+let toastTimer;
+function flashCopied(cmd, ok){
+  toast.classList.add('show');
+  toast.innerHTML = ok
+    ? ('Copied. Stick this in chat:<b>' + cmd.replace(/</g,'&lt;') + '</b>')
+    : ('Did not copy. Type this in chat:<b>' + cmd.replace(/</g,'&lt;') + '</b>');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('show'), 4000);
+}
+document.querySelectorAll('.btns button[data-cmd]').forEach(b=>b.onclick=()=>{
+  const cmd = b.getAttribute('data-cmd');
+  const old = b.textContent;
+  copyText(cmd).then(() => {
+    b.classList.add('did');
+    b.textContent = 'copied';
+    flashCopied(cmd, true);
+    setTimeout(() => { b.classList.remove('did'); b.textContent = old; }, 2200);
+  }).catch(() => {
+    flashCopied(cmd, false);
+  });
+});
+</script>
+</div></body></html>
