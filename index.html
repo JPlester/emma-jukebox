@@ -12,9 +12,12 @@ body{margin:0;background:var(--ground);color:var(--ink);font-family:Helvetica,Ar
   .find{margin-left:-2rem;margin-right:-2rem;padding-left:2rem;padding-right:2rem}
 }
 h1{font-family:Helvetica,Arial,sans-serif;font-weight:600;font-size:clamp(1.8rem,5vw,2.4rem);letter-spacing:-.03em;margin:.2rem 0 .35rem}
-.banners{display:grid;gap:.6rem;margin:0 0 1.1rem}
-.banner{margin:0;padding:1rem 1.1rem;background:#fff;border:1px solid var(--rule);border-radius:16px}
-.banner.who{background:#547053;color:#fff;font-weight:700;letter-spacing:.03em}
+.offer{display:flex;gap:1rem;align-items:center;margin:0 0 1.1rem;padding:1rem;background:#fff;border:1px solid var(--rule);border-radius:16px}
+.offer[hidden]{display:none}
+.offer .pics{display:flex;gap:.45rem;flex-wrap:wrap}
+.offer img{width:84px;height:84px;object-fit:cover;border-radius:12px;background:#f6f4ef}
+.offer .off-k{margin:0;color:#547053;font-weight:700}
+.offer .off-code{margin:.2rem 0 0;font-size:1.35rem;font-weight:700;letter-spacing:.02em}
 .eyebrow{font-family:Helvetica,Arial,sans-serif;font-weight:600;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin:0}
 .standfirst{color:var(--ink-2);margin:0 0 1.1rem}
 .onair{margin:0 0 1.15rem;background:var(--surface);border:1px solid var(--rule)}
@@ -51,10 +54,12 @@ ul{margin:0;padding:0}
 #toast b{display:block;font-family:Helvetica,Arial,sans-serif;font-weight:600;font-size:.95rem;margin:.15rem 0 .35rem}
 </style></head>
 <body><div class="wrap">
-<div class="banners">
-  <p class="banner who" id="b-who">Emma McGann. Jungle Jukebox.</p>
-  <p class="banner how" id="b-how">Type !jukebox and the song name in the Twitch chat.</p>
-  <p class="banner shop" id="b-shop">Merch and albums are in the shop while the show is on.</p>
+<div class="offer" id="offer" hidden>
+  <div class="pics" id="offer-pics"></div>
+  <div>
+    <p class="off-k" id="offer-off"></p>
+    <p class="off-code" id="offer-code"></p>
+  </div>
 </div>
 <h1>Jukebox Requests</h1>
 <p class="standfirst">Browse songs from Our Treehouse archive below! Once chosen, type !jukebox [song name] into Twitch chat. Our jukebox will then randomly select a past performance of your chosen track which will be automatically added to the stream queue</p>
@@ -247,8 +252,25 @@ function whoLine(who){
 async function tick(){
   try{
     const d = await (await fetch('https://storage.googleapis.com/jukebox.emmamcgann.com/now.json',{cache:'no-store'})).json();
-    const banners = d.banners || [];
-    ['b-who','b-how','b-shop'].forEach((id,i) => { if(banners[i]){ const el = document.getElementById(id); if(el) el.textContent = banners[i]; } });
+    const offer = d.offer;
+    const offerBox = document.getElementById('offer');
+    if(offerBox){
+      if(!offer || !offer.code){ offerBox.hidden = true; }
+      else {
+        offerBox.hidden = false;
+        document.getElementById('offer-off').textContent = offer.percent + '% off ' + (offer.what || 'the shop');
+        document.getElementById('offer-code').textContent = 'Code ' + offer.code;
+        const pics = document.getElementById('offer-pics');
+        pics.innerHTML = '';
+        (offer.products || []).forEach(function(p){
+          if(!p.image) return;
+          const img = document.createElement('img');
+          img.src = p.image;
+          img.alt = p.title || '';
+          pics.appendChild(img);
+        });
+      }
+    }
     const n = d.now;
     const nowEl = document.getElementById('now');
     const waiting = d.queue || d.next || [];
