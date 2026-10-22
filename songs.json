@@ -72,15 +72,6 @@
     "command": "!jukebox I Dare You"
   },
   {
-    "title": "Cherry On Top (LIVE)",
-    "display": "Cherry On Top (LIVE)",
-    "kind": "original",
-    "takes": 6,
-    "acoustic": 5,
-    "drums": 1,
-    "command": "!jukebox Cherry On Top (LIVE)"
-  },
-  {
     "title": "Dancing in the Dark",
     "display": "Dancing in the Dark by Bruce Springsteen",
     "kind": "cover",
@@ -117,6 +108,15 @@
     "command": "!jukebox Can't Afford To Be In Love"
   },
   {
+    "title": "Cherry On Top (LIVE)",
+    "display": "Cherry On Top (LIVE)",
+    "kind": "original",
+    "takes": 5,
+    "acoustic": 5,
+    "drums": 0,
+    "command": "!jukebox Cherry On Top (LIVE)"
+  },
+  {
     "title": "Forest Fire",
     "display": "Forest Fire",
     "kind": "original",
@@ -124,15 +124,6 @@
     "acoustic": 5,
     "drums": 0,
     "command": "!jukebox Forest Fire"
-  },
-  {
-    "title": "Get Lost",
-    "display": "Get Lost",
-    "kind": "original",
-    "takes": 5,
-    "acoustic": 3,
-    "drums": 2,
-    "command": "!jukebox Get Lost"
   },
   {
     "title": "Late Night Swim",
@@ -270,6 +261,15 @@
     "command": "!jukebox Fade Away"
   },
   {
+    "title": "Get Lost",
+    "display": "Get Lost",
+    "kind": "original",
+    "takes": 3,
+    "acoustic": 3,
+    "drums": 0,
+    "command": "!jukebox Get Lost"
+  },
+  {
     "title": "HOWL",
     "display": "HOWL",
     "kind": "original",
@@ -297,15 +297,6 @@
     "command": "!jukebox Queen of This Castle (Acoustic)"
   },
   {
-    "title": "The Emptiness Machine",
-    "display": "The Emptiness Machine by Linkin Park",
-    "kind": "cover",
-    "takes": 3,
-    "acoustic": 2,
-    "drums": 1,
-    "command": "!jukebox The Emptiness Machine"
-  },
-  {
     "title": "Three Dot Bubble",
     "display": "Three Dot Bubble",
     "kind": "original",
@@ -322,15 +313,6 @@
     "acoustic": 3,
     "drums": 0,
     "command": "!jukebox Walk"
-  },
-  {
-    "title": "We Will Rock You",
-    "display": "We Will Rock You by Queen",
-    "kind": "cover",
-    "takes": 3,
-    "acoustic": 0,
-    "drums": 3,
-    "command": "!jukebox We Will Rock You"
   },
   {
     "title": "All My Love",
@@ -432,6 +414,15 @@
     "command": "!jukebox Swing Life Away"
   },
   {
+    "title": "The Emptiness Machine",
+    "display": "The Emptiness Machine by Linkin Park",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
+    "command": "!jukebox The Emptiness Machine"
+  },
+  {
     "title": "Walking in Memphis",
     "display": "Walking in Memphis by Marc Cohn",
     "kind": "cover",
@@ -466,24 +457,6 @@
     "acoustic": 1,
     "drums": 0,
     "command": "!jukebox Aerials"
-  },
-  {
-    "title": "And I could tell it wouldn't be long, he",
-    "display": "And I could tell it wouldn't be long, he by Kate. She's",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox And I could tell it wouldn't be long, he"
-  },
-  {
-    "title": "any songs you want",
-    "display": "any songs you want by Ace",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox any songs you want"
   },
   {
     "title": "Be More Kind",
@@ -549,15 +522,6 @@
     "command": "!jukebox Cardigan"
   },
   {
-    "title": "Collide",
-    "display": "Collide by Normandy",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Collide"
-  },
-  {
     "title": "Crush",
     "display": "Crush by Jennifer Paige",
     "kind": "cover",
@@ -574,15 +538,6 @@
     "acoustic": 1,
     "drums": 0,
     "command": "!jukebox Dakota"
-  },
-  {
-    "title": "Danger",
-    "display": "Danger",
-    "kind": "original",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Danger"
   },
   {
     "title": "Daylight Robbery (Acoustic)",
@@ -630,15 +585,6 @@
     "command": "!jukebox Drive"
   },
   {
-    "title": "Everything's changing",
-    "display": "Everything's changing by Avril",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Everything's changing"
-  },
-  {
     "title": "Fell For A Daydreamer",
     "display": "Fell For A Daydreamer",
     "kind": "original",
@@ -664,15 +610,6 @@
     "acoustic": 1,
     "drums": 0,
     "command": "!jukebox Fly Away"
-  },
-  {
-    "title": "Given Up",
-    "display": "Given Up by Linkin Park",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Given Up"
   },
   {
     "title": "Green Light",
@@ -720,24 +657,6 @@
     "command": "!jukebox I Want It That Way"
   },
   {
-    "title": "I'm a liar now",
-    "display": "I'm a liar now by Rihanna",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox I'm a liar now"
-  },
-  {
-    "title": "I'm a little bit of a fan, I'm gonna lov",
-    "display": "I'm a little bit of a fan, I'm gonna lov by Queens. I",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox I'm a little bit of a fan, I'm gonna lov"
-  },
-  {
     "title": "I'm Not Alone",
     "display": "I'm Not Alone",
     "kind": "original",
@@ -763,15 +682,6 @@
     "acoustic": 1,
     "drums": 0,
     "command": "!jukebox Ironic"
-  },
-  {
-    "title": "It's gonna be me",
-    "display": "It's gonna be me by Backstreet Boys",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox It's gonna be me"
   },
   {
     "title": "Jumpsuit",
@@ -808,24 +718,6 @@
     "acoustic": 1,
     "drums": 0,
     "command": "!jukebox Love Will Tear Us Apart"
-  },
-  {
-    "title": "Lullaby",
-    "display": "Lullaby by Against",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Lullaby"
-  },
-  {
-    "title": "Millionaire",
-    "display": "Millionaire by Khalees",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Millionaire"
   },
   {
     "title": "Mobile",
@@ -945,33 +837,6 @@
     "command": "!jukebox Skeletons Don't Scare Me"
   },
   {
-    "title": "Sleep",
-    "display": "Sleep by Wallace Bird",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Sleep"
-  },
-  {
-    "title": "The Things I Hate",
-    "display": "The Things I Hate by Stabbin",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox The Things I Hate"
-  },
-  {
-    "title": "This is why",
-    "display": "This is why by Alanis Morissette",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox This is why"
-  },
-  {
     "title": "This Love",
     "display": "This Love by Maroon 5",
     "kind": "cover",
@@ -988,15 +853,6 @@
     "acoustic": 1,
     "drums": 0,
     "command": "!jukebox Tired Eyes"
-  },
-  {
-    "title": "Vienna",
-    "display": "Vienna by Ultra Vux",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Vienna"
   },
   {
     "title": "What's Up",
@@ -1042,14 +898,5 @@
     "acoustic": 1,
     "drums": 0,
     "command": "!jukebox You're My Home"
-  },
-  {
-    "title": "YYY",
-    "display": "YYY by Shawn Mendes",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox YYY"
   }
 ]
