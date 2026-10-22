@@ -3,14 +3,14 @@
     "title": "Your Last Page",
     "display": "Your Last Page",
     "kind": "original",
-    "takes": 51,
+    "takes": 46,
     "command": "!jukebox Your Last Page"
   },
   {
     "title": "The Perfect Place",
     "display": "The Perfect Place",
     "kind": "original",
-    "takes": 23,
+    "takes": 22,
     "command": "!jukebox The Perfect Place"
   },
   {
@@ -24,43 +24,29 @@
     "title": "Embers Only Glow",
     "display": "Embers Only Glow",
     "kind": "original",
-    "takes": 15,
+    "takes": 13,
     "command": "!jukebox Embers Only Glow"
   },
   {
     "title": "With the Seasons",
     "display": "With the Seasons",
     "kind": "original",
-    "takes": 12,
+    "takes": 8,
     "command": "!jukebox With the Seasons"
   },
   {
     "title": "Ballerina",
     "display": "Ballerina",
     "kind": "original",
-    "takes": 8,
+    "takes": 7,
     "command": "!jukebox Ballerina"
   },
   {
     "title": "Cut the Line",
     "display": "Cut the Line",
     "kind": "original",
-    "takes": 8,
-    "command": "!jukebox Cut the Line"
-  },
-  {
-    "title": "Idol",
-    "display": "Idol",
-    "kind": "original",
-    "takes": 8,
-    "command": "!jukebox Idol"
-  },
-  {
-    "title": "Dancing in the Dark",
-    "display": "Dancing in the Dark by Bruce Springsteen",
-    "kind": "cover",
     "takes": 7,
-    "command": "!jukebox Dancing in the Dark"
+    "command": "!jukebox Cut the Line"
   },
   {
     "title": "I Dare You",
@@ -70,18 +56,11 @@
     "command": "!jukebox I Dare You"
   },
   {
-    "title": "Forest Fire",
-    "display": "Forest Fire",
-    "kind": "original",
+    "title": "Dancing in the Dark",
+    "display": "Dancing in the Dark by Bruce Springsteen",
+    "kind": "cover",
     "takes": 6,
-    "command": "!jukebox Forest Fire"
-  },
-  {
-    "title": "Hex",
-    "display": "Hex",
-    "kind": "original",
-    "takes": 6,
-    "command": "!jukebox Hex"
+    "command": "!jukebox Dancing in the Dark"
   },
   {
     "title": "I Don't Wanna Say Goodbye",
@@ -112,25 +91,11 @@
     "command": "!jukebox Cherry On Top (LIVE)"
   },
   {
-    "title": "Don't Speak",
-    "display": "Don't Speak by No Doubt",
-    "kind": "cover",
-    "takes": 5,
-    "command": "!jukebox Don't Speak"
-  },
-  {
-    "title": "Fade Away",
-    "display": "Fade Away",
+    "title": "Forest Fire",
+    "display": "Forest Fire",
     "kind": "original",
     "takes": 5,
-    "command": "!jukebox Fade Away"
-  },
-  {
-    "title": "HOWL",
-    "display": "HOWL",
-    "kind": "original",
-    "takes": 5,
-    "command": "!jukebox HOWL"
+    "command": "!jukebox Forest Fire"
   },
   {
     "title": "Late Night Swim",
@@ -138,20 +103,6 @@
     "kind": "original",
     "takes": 5,
     "command": "!jukebox Late Night Swim"
-  },
-  {
-    "title": "Simon Says (Acoustic)",
-    "display": "Simon Says (Acoustic)",
-    "kind": "original",
-    "takes": 5,
-    "command": "!jukebox Simon Says (Acoustic)"
-  },
-  {
-    "title": "Breathe (2 AM)",
-    "display": "Breathe (2 AM) by Anna Nalick",
-    "kind": "cover",
-    "takes": 4,
-    "command": "!jukebox Breathe (2 AM)"
   },
   {
     "title": "Carmelite Road",
@@ -175,11 +126,11 @@
     "command": "!jukebox Didn't I (Blow Your Mind This Time)"
   },
   {
-    "title": "Get Lost",
-    "display": "Get Lost",
+    "title": "Idol",
+    "display": "Idol",
     "kind": "original",
     "takes": 4,
-    "command": "!jukebox Get Lost"
+    "command": "!jukebox Idol"
   },
   {
     "title": "Little Villains",
@@ -196,13 +147,6 @@
     "command": "!jukebox Only Happy When It Rains"
   },
   {
-    "title": "Queen of This Castle (Acoustic)",
-    "display": "Queen of This Castle (Acoustic)",
-    "kind": "original",
-    "takes": 4,
-    "command": "!jukebox Queen of This Castle (Acoustic)"
-  },
-  {
     "title": "Second Chances",
     "display": "Second Chances",
     "kind": "original",
@@ -210,11 +154,25 @@
     "command": "!jukebox Second Chances"
   },
   {
+    "title": "Simon Says (Acoustic)",
+    "display": "Simon Says (Acoustic)",
+    "kind": "original",
+    "takes": 4,
+    "command": "!jukebox Simon Says (Acoustic)"
+  },
+  {
     "title": "Skeletons",
     "display": "Skeletons",
     "kind": "original",
     "takes": 4,
     "command": "!jukebox Skeletons"
+  },
+  {
+    "title": "Breathe (2 AM)",
+    "display": "Breathe (2 AM) by Anna Nalick",
+    "kind": "cover",
+    "takes": 3,
+    "command": "!jukebox Breathe (2 AM)"
   },
   {
     "title": "Chasing Storms",
@@ -238,6 +196,27 @@
     "command": "!jukebox Day-to-Day"
   },
   {
+    "title": "Fade Away",
+    "display": "Fade Away",
+    "kind": "original",
+    "takes": 3,
+    "command": "!jukebox Fade Away"
+  },
+  {
+    "title": "Get Lost",
+    "display": "Get Lost",
+    "kind": "original",
+    "takes": 3,
+    "command": "!jukebox Get Lost"
+  },
+  {
+    "title": "HOWL",
+    "display": "HOWL",
+    "kind": "original",
+    "takes": 3,
+    "command": "!jukebox HOWL"
+  },
+  {
     "title": "Lion's Den",
     "display": "Lion's Den",
     "kind": "original",
@@ -245,25 +224,11 @@
     "command": "!jukebox Lion's Den"
   },
   {
-    "title": "Red Flags",
-    "display": "Red Flags",
+    "title": "Queen of This Castle (Acoustic)",
+    "display": "Queen of This Castle (Acoustic)",
     "kind": "original",
     "takes": 3,
-    "command": "!jukebox Red Flags"
-  },
-  {
-    "title": "Rewrite",
-    "display": "Rewrite",
-    "kind": "original",
-    "takes": 3,
-    "command": "!jukebox Rewrite"
-  },
-  {
-    "title": "Scream Bloody Murder",
-    "display": "Scream Bloody Murder",
-    "kind": "original",
-    "takes": 3,
-    "command": "!jukebox Scream Bloody Murder"
+    "command": "!jukebox Queen of This Castle (Acoustic)"
   },
   {
     "title": "Three Dot Bubble",
@@ -292,13 +257,6 @@
     "kind": "original",
     "takes": 2,
     "command": "!jukebox Ask Me To Dance (Acoustic)"
-  },
-  {
-    "title": "Better Now",
-    "display": "Better Now by Post Malone",
-    "kind": "cover",
-    "takes": 2,
-    "command": "!jukebox Better Now"
   },
   {
     "title": "Boulevard of Broken Dreams",
@@ -336,13 +294,6 @@
     "command": "!jukebox In Your Shadow"
   },
   {
-    "title": "Karma's Gonna Come",
-    "display": "Karma's Gonna Come",
-    "kind": "original",
-    "takes": 2,
-    "command": "!jukebox Karma's Gonna Come"
-  },
-  {
     "title": "Kerosene",
     "display": "Kerosene by Miranda Lambert",
     "kind": "cover",
@@ -355,27 +306,6 @@
     "kind": "original",
     "takes": 2,
     "command": "!jukebox Mixtape"
-  },
-  {
-    "title": "One More Light",
-    "display": "One More Light by Linkin Park",
-    "kind": "cover",
-    "takes": 2,
-    "command": "!jukebox One More Light"
-  },
-  {
-    "title": "Put Me Out",
-    "display": "Put Me Out",
-    "kind": "original",
-    "takes": 2,
-    "command": "!jukebox Put Me Out"
-  },
-  {
-    "title": "Small Talk",
-    "display": "Small Talk",
-    "kind": "original",
-    "takes": 2,
-    "command": "!jukebox Small Talk"
   },
   {
     "title": "Stuck in Sausalito (Acoustic)",
@@ -427,20 +357,6 @@
     "command": "!jukebox Aerials"
   },
   {
-    "title": "Alkaline",
-    "display": "Alkaline by Sleep Token",
-    "kind": "cover",
-    "takes": 1,
-    "command": "!jukebox Alkaline"
-  },
-  {
-    "title": "Baby Boy",
-    "display": "Baby Boy by Beyonce",
-    "kind": "cover",
-    "takes": 1,
-    "command": "!jukebox Baby Boy"
-  },
-  {
     "title": "Be More Kind",
     "display": "Be More Kind by Frank Turner",
     "kind": "cover",
@@ -462,6 +378,13 @@
     "command": "!jukebox Best of You"
   },
   {
+    "title": "Better Now",
+    "display": "Better Now by Post Malone",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Better Now"
+  },
+  {
     "title": "Bitch",
     "display": "Bitch by Meredith Brooks",
     "kind": "cover",
@@ -476,39 +399,11 @@
     "command": "!jukebox Black Hole Sun"
   },
   {
-    "title": "Burden",
-    "display": "Burden",
-    "kind": "original",
-    "takes": 1,
-    "command": "!jukebox Burden"
-  },
-  {
-    "title": "Call You Again",
-    "display": "Call You Again",
-    "kind": "original",
-    "takes": 1,
-    "command": "!jukebox Call You Again"
-  },
-  {
     "title": "Cardigan",
     "display": "Cardigan by Taylor Swift",
     "kind": "cover",
     "takes": 1,
     "command": "!jukebox Cardigan"
-  },
-  {
-    "title": "Coma",
-    "display": "Coma by Taylor Acorn",
-    "kind": "cover",
-    "takes": 1,
-    "command": "!jukebox Coma"
-  },
-  {
-    "title": "Come Clean",
-    "display": "Come Clean by Hilary Duff",
-    "kind": "cover",
-    "takes": 1,
-    "command": "!jukebox Come Clean"
   },
   {
     "title": "Crush",
@@ -537,6 +432,13 @@
     "kind": "original",
     "takes": 1,
     "command": "!jukebox Distracted"
+  },
+  {
+    "title": "Don't Speak",
+    "display": "Don't Speak by No Doubt",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox Don't Speak"
   },
   {
     "title": "Double Vision (Acoustic)",
@@ -588,18 +490,11 @@
     "command": "!jukebox Head Over Feet"
   },
   {
-    "title": "Heartbeats",
-    "display": "Heartbeats by Jose Gonzalez",
-    "kind": "cover",
-    "takes": 1,
-    "command": "!jukebox Heartbeats"
-  },
-  {
-    "title": "Homesick",
-    "display": "Homesick",
+    "title": "Hex",
+    "display": "Hex",
     "kind": "original",
     "takes": 1,
-    "command": "!jukebox Homesick"
+    "command": "!jukebox Hex"
   },
   {
     "title": "Hummingbird Heartbeat",
@@ -630,13 +525,6 @@
     "command": "!jukebox I'm With You"
   },
   {
-    "title": "Iris",
-    "display": "Iris by Goo Goo Dolls",
-    "kind": "cover",
-    "takes": 1,
-    "command": "!jukebox Iris"
-  },
-  {
     "title": "Ironic",
     "display": "Ironic by Alanis Morissette",
     "kind": "cover",
@@ -649,6 +537,13 @@
     "kind": "cover",
     "takes": 1,
     "command": "!jukebox Jumpsuit"
+  },
+  {
+    "title": "Karma's Gonna Come",
+    "display": "Karma's Gonna Come",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Karma's Gonna Come"
   },
   {
     "title": "Lifeboat (Acoustic)",
@@ -665,32 +560,11 @@
     "command": "!jukebox Love Will Tear Us Apart"
   },
   {
-    "title": "Love You To Death",
-    "display": "Love You To Death",
-    "kind": "original",
-    "takes": 1,
-    "command": "!jukebox Love You To Death"
-  },
-  {
     "title": "Mobile",
     "display": "Mobile by Avril Lavigne",
     "kind": "cover",
     "takes": 1,
     "command": "!jukebox Mobile"
-  },
-  {
-    "title": "Monster",
-    "display": "Monster by Meg Myers",
-    "kind": "cover",
-    "takes": 1,
-    "command": "!jukebox Monster"
-  },
-  {
-    "title": "My Kinda Crazy",
-    "display": "My Kinda Crazy",
-    "kind": "original",
-    "takes": 1,
-    "command": "!jukebox My Kinda Crazy"
   },
   {
     "title": "Numb",
@@ -707,6 +581,13 @@
     "command": "!jukebox Ocean Eyes"
   },
   {
+    "title": "One More Light",
+    "display": "One More Light by Linkin Park",
+    "kind": "cover",
+    "takes": 1,
+    "command": "!jukebox One More Light"
+  },
+  {
     "title": "Out of Luck",
     "display": "Out of Luck",
     "kind": "original",
@@ -721,13 +602,6 @@
     "command": "!jukebox Papercut"
   },
   {
-    "title": "Pathways",
-    "display": "Pathways",
-    "kind": "original",
-    "takes": 1,
-    "command": "!jukebox Pathways"
-  },
-  {
     "title": "Pompeii",
     "display": "Pompeii by Bastille",
     "kind": "cover",
@@ -740,13 +614,6 @@
     "kind": "cover",
     "takes": 1,
     "command": "!jukebox Pure Shores"
-  },
-  {
-    "title": "Put Your Records On",
-    "display": "Put Your Records On by Corinne Bailey Rae",
-    "kind": "cover",
-    "takes": 1,
-    "command": "!jukebox Put Your Records On"
   },
   {
     "title": "Rehab",
@@ -770,6 +637,13 @@
     "command": "!jukebox Sanctuary"
   },
   {
+    "title": "Scream Bloody Murder",
+    "display": "Scream Bloody Murder",
+    "kind": "original",
+    "takes": 1,
+    "command": "!jukebox Scream Bloody Murder"
+  },
+  {
     "title": "Skeletons Don't Scare Me",
     "display": "Skeletons Don't Scare Me",
     "kind": "original",
@@ -782,13 +656,6 @@
     "kind": "cover",
     "takes": 1,
     "command": "!jukebox This Love"
-  },
-  {
-    "title": "Through Glass",
-    "display": "Through Glass by Stone Sour",
-    "kind": "cover",
-    "takes": 1,
-    "command": "!jukebox Through Glass"
   },
   {
     "title": "Tired Eyes",
@@ -817,13 +684,6 @@
     "kind": "cover",
     "takes": 1,
     "command": "!jukebox When I Come Around"
-  },
-  {
-    "title": "Where I Stood",
-    "display": "Where I Stood by Missy Higgins",
-    "kind": "cover",
-    "takes": 1,
-    "command": "!jukebox Where I Stood"
   },
   {
     "title": "Wild Thoughts",
