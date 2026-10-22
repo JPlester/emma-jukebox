@@ -4,6 +4,8 @@
     "display": "Your Last Page",
     "kind": "original",
     "takes": 46,
+    "acoustic": 46,
+    "drums": 0,
     "command": "!jukebox Your Last Page"
   },
   {
@@ -11,6 +13,8 @@
     "display": "The Perfect Place",
     "kind": "original",
     "takes": 22,
+    "acoustic": 22,
+    "drums": 0,
     "command": "!jukebox The Perfect Place"
   },
   {
@@ -18,6 +22,8 @@
     "display": "Don't Slow Down",
     "kind": "original",
     "takes": 18,
+    "acoustic": 18,
+    "drums": 0,
     "command": "!jukebox Don't Slow Down"
   },
   {
@@ -25,6 +31,8 @@
     "display": "Embers Only Glow",
     "kind": "original",
     "takes": 13,
+    "acoustic": 13,
+    "drums": 0,
     "command": "!jukebox Embers Only Glow"
   },
   {
@@ -32,6 +40,8 @@
     "display": "With the Seasons",
     "kind": "original",
     "takes": 8,
+    "acoustic": 8,
+    "drums": 0,
     "command": "!jukebox With the Seasons"
   },
   {
@@ -39,6 +49,8 @@
     "display": "Ballerina",
     "kind": "original",
     "takes": 7,
+    "acoustic": 7,
+    "drums": 0,
     "command": "!jukebox Ballerina"
   },
   {
@@ -46,6 +58,8 @@
     "display": "Cut the Line",
     "kind": "original",
     "takes": 7,
+    "acoustic": 7,
+    "drums": 0,
     "command": "!jukebox Cut the Line"
   },
   {
@@ -53,6 +67,8 @@
     "display": "I Dare You",
     "kind": "original",
     "takes": 7,
+    "acoustic": 7,
+    "drums": 0,
     "command": "!jukebox I Dare You"
   },
   {
@@ -60,6 +76,8 @@
     "display": "Cherry On Top (LIVE)",
     "kind": "original",
     "takes": 6,
+    "acoustic": 5,
+    "drums": 1,
     "command": "!jukebox Cherry On Top (LIVE)"
   },
   {
@@ -67,6 +85,8 @@
     "display": "Dancing in the Dark by Bruce Springsteen",
     "kind": "cover",
     "takes": 6,
+    "acoustic": 6,
+    "drums": 0,
     "command": "!jukebox Dancing in the Dark"
   },
   {
@@ -74,6 +94,8 @@
     "display": "I Don't Wanna Say Goodbye",
     "kind": "original",
     "takes": 6,
+    "acoustic": 6,
+    "drums": 0,
     "command": "!jukebox I Don't Wanna Say Goodbye"
   },
   {
@@ -81,6 +103,8 @@
     "display": "Temptation",
     "kind": "original",
     "takes": 6,
+    "acoustic": 6,
+    "drums": 0,
     "command": "!jukebox Temptation"
   },
   {
@@ -88,6 +112,8 @@
     "display": "Can't Afford To Be In Love",
     "kind": "original",
     "takes": 5,
+    "acoustic": 5,
+    "drums": 0,
     "command": "!jukebox Can't Afford To Be In Love"
   },
   {
@@ -95,6 +121,8 @@
     "display": "Forest Fire",
     "kind": "original",
     "takes": 5,
+    "acoustic": 5,
+    "drums": 0,
     "command": "!jukebox Forest Fire"
   },
   {
@@ -102,6 +130,8 @@
     "display": "Get Lost",
     "kind": "original",
     "takes": 5,
+    "acoustic": 3,
+    "drums": 2,
     "command": "!jukebox Get Lost"
   },
   {
@@ -109,6 +139,8 @@
     "display": "Late Night Swim",
     "kind": "original",
     "takes": 5,
+    "acoustic": 5,
+    "drums": 0,
     "command": "!jukebox Late Night Swim"
   },
   {
@@ -116,6 +148,8 @@
     "display": "Carmelite Road",
     "kind": "original",
     "takes": 4,
+    "acoustic": 4,
+    "drums": 0,
     "command": "!jukebox Carmelite Road"
   },
   {
@@ -123,6 +157,8 @@
     "display": "D.O.A. by Foo Fighters",
     "kind": "cover",
     "takes": 4,
+    "acoustic": 4,
+    "drums": 0,
     "command": "!jukebox D.O.A."
   },
   {
@@ -130,6 +166,8 @@
     "display": "Didn't I (Blow Your Mind This Time) by The Delfonics",
     "kind": "cover",
     "takes": 4,
+    "acoustic": 4,
+    "drums": 0,
     "command": "!jukebox Didn't I (Blow Your Mind This Time)"
   },
   {
@@ -137,6 +175,8 @@
     "display": "Idol",
     "kind": "original",
     "takes": 4,
+    "acoustic": 4,
+    "drums": 0,
     "command": "!jukebox Idol"
   },
   {
@@ -144,6 +184,8 @@
     "display": "Little Villains",
     "kind": "original",
     "takes": 4,
+    "acoustic": 4,
+    "drums": 0,
     "command": "!jukebox Little Villains"
   },
   {
@@ -151,6 +193,8 @@
     "display": "Only Happy When It Rains by Garbage",
     "kind": "cover",
     "takes": 4,
+    "acoustic": 4,
+    "drums": 0,
     "command": "!jukebox Only Happy When It Rains"
   },
   {
@@ -158,6 +202,8 @@
     "display": "Second Chances",
     "kind": "original",
     "takes": 4,
+    "acoustic": 4,
+    "drums": 0,
     "command": "!jukebox Second Chances"
   },
   {
@@ -165,6 +211,8 @@
     "display": "Simon Says (Acoustic)",
     "kind": "original",
     "takes": 4,
+    "acoustic": 4,
+    "drums": 0,
     "command": "!jukebox Simon Says (Acoustic)"
   },
   {
@@ -172,6 +220,8 @@
     "display": "Skeletons",
     "kind": "original",
     "takes": 4,
+    "acoustic": 4,
+    "drums": 0,
     "command": "!jukebox Skeletons"
   },
   {
@@ -179,6 +229,8 @@
     "display": "Breathe (2 AM) by Anna Nalick",
     "kind": "cover",
     "takes": 3,
+    "acoustic": 3,
+    "drums": 0,
     "command": "!jukebox Breathe (2 AM)"
   },
   {
@@ -186,6 +238,8 @@
     "display": "Chasing Storms",
     "kind": "original",
     "takes": 3,
+    "acoustic": 3,
+    "drums": 0,
     "command": "!jukebox Chasing Storms"
   },
   {
@@ -193,6 +247,8 @@
     "display": "Confetti (Acoustic)",
     "kind": "original",
     "takes": 3,
+    "acoustic": 3,
+    "drums": 0,
     "command": "!jukebox Confetti (Acoustic)"
   },
   {
@@ -200,6 +256,8 @@
     "display": "Day-to-Day",
     "kind": "original",
     "takes": 3,
+    "acoustic": 3,
+    "drums": 0,
     "command": "!jukebox Day-to-Day"
   },
   {
@@ -207,6 +265,8 @@
     "display": "Fade Away",
     "kind": "original",
     "takes": 3,
+    "acoustic": 3,
+    "drums": 0,
     "command": "!jukebox Fade Away"
   },
   {
@@ -214,6 +274,8 @@
     "display": "HOWL",
     "kind": "original",
     "takes": 3,
+    "acoustic": 3,
+    "drums": 0,
     "command": "!jukebox HOWL"
   },
   {
@@ -221,6 +283,8 @@
     "display": "Lion's Den",
     "kind": "original",
     "takes": 3,
+    "acoustic": 3,
+    "drums": 0,
     "command": "!jukebox Lion's Den"
   },
   {
@@ -228,6 +292,8 @@
     "display": "Queen of This Castle (Acoustic)",
     "kind": "original",
     "takes": 3,
+    "acoustic": 3,
+    "drums": 0,
     "command": "!jukebox Queen of This Castle (Acoustic)"
   },
   {
@@ -235,6 +301,8 @@
     "display": "The Emptiness Machine by Linkin Park",
     "kind": "cover",
     "takes": 3,
+    "acoustic": 2,
+    "drums": 1,
     "command": "!jukebox The Emptiness Machine"
   },
   {
@@ -242,6 +310,8 @@
     "display": "Three Dot Bubble",
     "kind": "original",
     "takes": 3,
+    "acoustic": 3,
+    "drums": 0,
     "command": "!jukebox Three Dot Bubble"
   },
   {
@@ -249,6 +319,8 @@
     "display": "Walk by Foo Fighters",
     "kind": "cover",
     "takes": 3,
+    "acoustic": 3,
+    "drums": 0,
     "command": "!jukebox Walk"
   },
   {
@@ -256,6 +328,8 @@
     "display": "We Will Rock You by Queen",
     "kind": "cover",
     "takes": 3,
+    "acoustic": 0,
+    "drums": 3,
     "command": "!jukebox We Will Rock You"
   },
   {
@@ -263,6 +337,8 @@
     "display": "All My Love by Coldplay",
     "kind": "cover",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox All My Love"
   },
   {
@@ -270,6 +346,8 @@
     "display": "Ask Me To Dance (Acoustic)",
     "kind": "original",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox Ask Me To Dance (Acoustic)"
   },
   {
@@ -277,6 +355,8 @@
     "display": "Boulevard of Broken Dreams by Green Day",
     "kind": "cover",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox Boulevard of Broken Dreams"
   },
   {
@@ -284,6 +364,8 @@
     "display": "Get Paid",
     "kind": "original",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox Get Paid"
   },
   {
@@ -291,6 +373,8 @@
     "display": "Ghost On Fire",
     "kind": "original",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox Ghost On Fire"
   },
   {
@@ -298,6 +382,8 @@
     "display": "In the End by Linkin Park",
     "kind": "cover",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox In the End"
   },
   {
@@ -305,6 +391,8 @@
     "display": "In Your Shadow",
     "kind": "original",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox In Your Shadow"
   },
   {
@@ -312,6 +400,8 @@
     "display": "Kerosene by Miranda Lambert",
     "kind": "cover",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox Kerosene"
   },
   {
@@ -319,6 +409,8 @@
     "display": "Mixtape",
     "kind": "original",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox Mixtape"
   },
   {
@@ -326,6 +418,8 @@
     "display": "Stuck in Sausalito (Acoustic)",
     "kind": "original",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox Stuck in Sausalito (Acoustic)"
   },
   {
@@ -333,6 +427,8 @@
     "display": "Swing Life Away by Rise Against",
     "kind": "cover",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox Swing Life Away"
   },
   {
@@ -340,6 +436,8 @@
     "display": "Walking in Memphis by Marc Cohn",
     "kind": "cover",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox Walking in Memphis"
   },
   {
@@ -347,6 +445,8 @@
     "display": "Whisper",
     "kind": "original",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox Whisper"
   },
   {
@@ -354,6 +454,8 @@
     "display": "Young Lovers",
     "kind": "original",
     "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
     "command": "!jukebox Young Lovers"
   },
   {
@@ -361,6 +463,8 @@
     "display": "Aerials by System of a Down",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Aerials"
   },
   {
@@ -368,6 +472,8 @@
     "display": "And I could tell it wouldn't be long, he by Kate. She's",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox And I could tell it wouldn't be long, he"
   },
   {
@@ -375,6 +481,8 @@
     "display": "any songs you want by Ace",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox any songs you want"
   },
   {
@@ -382,6 +490,8 @@
     "display": "Be More Kind by Frank Turner",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Be More Kind"
   },
   {
@@ -389,6 +499,8 @@
     "display": "Beautiful Stranger by Madonna",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Beautiful Stranger"
   },
   {
@@ -396,6 +508,8 @@
     "display": "Best of You by Foo Fighters",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Best of You"
   },
   {
@@ -403,6 +517,8 @@
     "display": "Better Now by Post Malone",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Better Now"
   },
   {
@@ -410,6 +526,8 @@
     "display": "Bitch by Meredith Brooks",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Bitch"
   },
   {
@@ -417,6 +535,8 @@
     "display": "Black Hole Sun by Soundgarden",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Black Hole Sun"
   },
   {
@@ -424,6 +544,8 @@
     "display": "Cardigan by Taylor Swift",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Cardigan"
   },
   {
@@ -431,6 +553,8 @@
     "display": "Collide by Normandy",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox Collide"
   },
   {
@@ -438,6 +562,8 @@
     "display": "Crush by Jennifer Paige",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Crush"
   },
   {
@@ -445,6 +571,8 @@
     "display": "Dakota by Stereophonics",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Dakota"
   },
   {
@@ -452,6 +580,8 @@
     "display": "Danger",
     "kind": "original",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox Danger"
   },
   {
@@ -459,6 +589,8 @@
     "display": "Daylight Robbery (Acoustic)",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Daylight Robbery (Acoustic)"
   },
   {
@@ -466,6 +598,8 @@
     "display": "Distracted",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Distracted"
   },
   {
@@ -473,6 +607,8 @@
     "display": "Don't Speak by No Doubt",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Don't Speak"
   },
   {
@@ -480,6 +616,8 @@
     "display": "Double Vision (Acoustic)",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Double Vision (Acoustic)"
   },
   {
@@ -487,6 +625,8 @@
     "display": "Drive by Incubus",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Drive"
   },
   {
@@ -494,6 +634,8 @@
     "display": "Everything's changing by Avril",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox Everything's changing"
   },
   {
@@ -501,6 +643,8 @@
     "display": "Fell For A Daydreamer",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Fell For A Daydreamer"
   },
   {
@@ -508,6 +652,8 @@
     "display": "Flavour",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Flavour"
   },
   {
@@ -515,6 +661,8 @@
     "display": "Fly Away by Lenny Kravitz",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Fly Away"
   },
   {
@@ -522,6 +670,8 @@
     "display": "Given Up by Linkin Park",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox Given Up"
   },
   {
@@ -529,6 +679,8 @@
     "display": "Green Light",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Green Light"
   },
   {
@@ -536,6 +688,8 @@
     "display": "Head Over Feet by Alanis Morissette",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Head Over Feet"
   },
   {
@@ -543,6 +697,8 @@
     "display": "Hex",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Hex"
   },
   {
@@ -550,6 +706,8 @@
     "display": "Hummingbird Heartbeat by Katy Perry",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Hummingbird Heartbeat"
   },
   {
@@ -557,6 +715,8 @@
     "display": "I Want It That Way by Backstreet Boys",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox I Want It That Way"
   },
   {
@@ -564,6 +724,8 @@
     "display": "I'm a liar now by Rihanna",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox I'm a liar now"
   },
   {
@@ -571,6 +733,8 @@
     "display": "I'm a little bit of a fan, I'm gonna lov by Queens. I",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox I'm a little bit of a fan, I'm gonna lov"
   },
   {
@@ -578,6 +742,8 @@
     "display": "I'm Not Alone",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox I'm Not Alone"
   },
   {
@@ -585,6 +751,8 @@
     "display": "I'm With You by Avril Lavigne",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox I'm With You"
   },
   {
@@ -592,6 +760,8 @@
     "display": "Ironic by Alanis Morissette",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Ironic"
   },
   {
@@ -599,6 +769,8 @@
     "display": "It's gonna be me by Backstreet Boys",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox It's gonna be me"
   },
   {
@@ -606,6 +778,8 @@
     "display": "Jumpsuit by twenty one pilots",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Jumpsuit"
   },
   {
@@ -613,6 +787,8 @@
     "display": "Karma's Gonna Come",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Karma's Gonna Come"
   },
   {
@@ -620,6 +796,8 @@
     "display": "Lifeboat (Acoustic)",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Lifeboat (Acoustic)"
   },
   {
@@ -627,6 +805,8 @@
     "display": "Love Will Tear Us Apart by Joy Division",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Love Will Tear Us Apart"
   },
   {
@@ -634,6 +814,8 @@
     "display": "Lullaby by Against",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox Lullaby"
   },
   {
@@ -641,6 +823,8 @@
     "display": "Millionaire by Khalees",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox Millionaire"
   },
   {
@@ -648,6 +832,8 @@
     "display": "Mobile by Avril Lavigne",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Mobile"
   },
   {
@@ -655,6 +841,8 @@
     "display": "Numb by Linkin Park",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Numb"
   },
   {
@@ -662,6 +850,8 @@
     "display": "Ocean Eyes by Billie Eilish",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Ocean Eyes"
   },
   {
@@ -669,6 +859,8 @@
     "display": "One More Light by Linkin Park",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox One More Light"
   },
   {
@@ -676,6 +868,8 @@
     "display": "Out of Luck",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Out of Luck"
   },
   {
@@ -683,6 +877,8 @@
     "display": "Papercut by Linkin Park",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Papercut"
   },
   {
@@ -690,6 +886,8 @@
     "display": "Pompeii by Bastille",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Pompeii"
   },
   {
@@ -697,6 +895,8 @@
     "display": "Pure Shores by All Saints",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Pure Shores"
   },
   {
@@ -704,6 +904,8 @@
     "display": "Rehab by Amy Winehouse",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Rehab"
   },
   {
@@ -711,6 +913,8 @@
     "display": "Ring of Fire by Johnny Cash",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Ring of Fire"
   },
   {
@@ -718,6 +922,8 @@
     "display": "Sanctuary",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Sanctuary"
   },
   {
@@ -725,6 +931,8 @@
     "display": "Scream Bloody Murder",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Scream Bloody Murder"
   },
   {
@@ -732,6 +940,8 @@
     "display": "Skeletons Don't Scare Me",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Skeletons Don't Scare Me"
   },
   {
@@ -739,6 +949,8 @@
     "display": "Sleep by Wallace Bird",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox Sleep"
   },
   {
@@ -746,6 +958,8 @@
     "display": "The Things I Hate by Stabbin",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox The Things I Hate"
   },
   {
@@ -753,6 +967,8 @@
     "display": "This is why by Alanis Morissette",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox This is why"
   },
   {
@@ -760,6 +976,8 @@
     "display": "This Love by Maroon 5",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox This Love"
   },
   {
@@ -767,6 +985,8 @@
     "display": "Tired Eyes",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Tired Eyes"
   },
   {
@@ -774,6 +994,8 @@
     "display": "Vienna by Ultra Vux",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox Vienna"
   },
   {
@@ -781,6 +1003,8 @@
     "display": "What's Up by 4 Non Blondes",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox What's Up"
   },
   {
@@ -788,6 +1012,8 @@
     "display": "Wheels by Foo Fighters",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Wheels"
   },
   {
@@ -795,6 +1021,8 @@
     "display": "When I Come Around by Green Day",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox When I Come Around"
   },
   {
@@ -802,6 +1030,8 @@
     "display": "Wild Thoughts",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox Wild Thoughts"
   },
   {
@@ -809,6 +1039,8 @@
     "display": "You're My Home",
     "kind": "original",
     "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
     "command": "!jukebox You're My Home"
   },
   {
@@ -816,6 +1048,8 @@
     "display": "YYY by Shawn Mendes",
     "kind": "cover",
     "takes": 1,
+    "acoustic": 0,
+    "drums": 1,
     "command": "!jukebox YYY"
   }
 ]
