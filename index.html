@@ -400,9 +400,7 @@ function flashCopied(cmd, ok){
   toastTimer = setTimeout(() => toast.classList.remove('show'), 4000);
 }
 document.querySelectorAll('.btns button[data-cmd]').forEach(b=>b.onclick=()=>{
-  const li = b.closest('li');
-  const has = (li && li.getAttribute('data-sound')) || '';
-  const cmd = b.getAttribute('data-cmd') + ((sound !== 'all' && has.indexOf(sound) >= 0) ? (sound === 'drums' ? ' drums' : ' acoustic') : '');
+  const cmd = b.getAttribute('data-cmd');
   const old = b.textContent;
   copyText(cmd).then(() => {
     b.classList.add('did');
