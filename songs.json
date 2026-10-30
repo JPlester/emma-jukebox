@@ -3,8 +3,8 @@
     "title": "The Perfect Place",
     "display": "The Perfect Place",
     "kind": "original",
-    "takes": 47,
-    "acoustic": 47,
+    "takes": 46,
+    "acoustic": 46,
     "drums": 0,
     "command": "!jukebox The Perfect Place"
   },
@@ -12,19 +12,10 @@
     "title": "Your Last Page",
     "display": "Your Last Page",
     "kind": "original",
-    "takes": 45,
-    "acoustic": 44,
-    "drums": 1,
+    "takes": 43,
+    "acoustic": 43,
+    "drums": 0,
     "command": "!jukebox Your Last Page"
-  },
-  {
-    "title": "With the Seasons",
-    "display": "With the Seasons",
-    "kind": "original",
-    "takes": 39,
-    "acoustic": 37,
-    "drums": 2,
-    "command": "!jukebox With the Seasons"
   },
   {
     "title": "Don't Slow Down",
@@ -36,67 +27,31 @@
     "command": "!jukebox Don't Slow Down"
   },
   {
-    "title": "I'm Not Alone",
-    "display": "I'm Not Alone",
-    "kind": "original",
-    "takes": 32,
-    "acoustic": 10,
-    "drums": 22,
-    "command": "!jukebox I'm Not Alone"
-  },
-  {
     "title": "Put Me Out",
     "display": "Put Me Out",
     "kind": "original",
-    "takes": 32,
-    "acoustic": 31,
+    "takes": 31,
+    "acoustic": 30,
     "drums": 1,
     "command": "!jukebox Put Me Out"
-  },
-  {
-    "title": "Fade Away",
-    "display": "Fade Away",
-    "kind": "original",
-    "takes": 28,
-    "acoustic": 21,
-    "drums": 7,
-    "command": "!jukebox Fade Away"
   },
   {
     "title": "Cherry On Top (LIVE)",
     "display": "Cherry On Top (LIVE)",
     "kind": "original",
-    "takes": 26,
-    "acoustic": 17,
-    "drums": 9,
+    "takes": 23,
+    "acoustic": 16,
+    "drums": 7,
     "command": "!jukebox Cherry On Top (LIVE)"
   },
   {
-    "title": "Get Paid",
-    "display": "Get Paid",
-    "kind": "original",
-    "takes": 25,
-    "acoustic": 12,
-    "drums": 13,
-    "command": "!jukebox Get Paid"
-  },
-  {
-    "title": "Second Chances",
-    "display": "Second Chances",
-    "kind": "original",
-    "takes": 24,
-    "acoustic": 14,
-    "drums": 10,
-    "command": "!jukebox Second Chances"
-  },
-  {
-    "title": "I Dare You",
-    "display": "I Dare You",
+    "title": "Fade Away",
+    "display": "Fade Away",
     "kind": "original",
     "takes": 23,
-    "acoustic": 20,
-    "drums": 3,
-    "command": "!jukebox I Dare You"
+    "acoustic": 17,
+    "drums": 6,
+    "command": "!jukebox Fade Away"
   },
   {
     "title": "Can't Afford To Be In Love",
@@ -108,22 +63,13 @@
     "command": "!jukebox Can't Afford To Be In Love"
   },
   {
-    "title": "Scarlet Red",
-    "display": "Scarlet Red",
+    "title": "Get Paid",
+    "display": "Get Paid",
     "kind": "original",
-    "takes": 20,
-    "acoustic": 20,
-    "drums": 0,
-    "command": "!jukebox Scarlet Red"
-  },
-  {
-    "title": "Embers Only Glow",
-    "display": "Embers Only Glow",
-    "kind": "original",
-    "takes": 19,
-    "acoustic": 19,
-    "drums": 0,
-    "command": "!jukebox Embers Only Glow"
+    "takes": 21,
+    "acoustic": 12,
+    "drums": 9,
+    "command": "!jukebox Get Paid"
   },
   {
     "title": "Skeletons",
@@ -135,6 +81,15 @@
     "command": "!jukebox Skeletons"
   },
   {
+    "title": "With the Seasons",
+    "display": "With the Seasons",
+    "kind": "original",
+    "takes": 19,
+    "acoustic": 19,
+    "drums": 0,
+    "command": "!jukebox With the Seasons"
+  },
+  {
     "title": "Ask Me To Dance (Acoustic)",
     "display": "Ask Me To Dance (Acoustic)",
     "kind": "original",
@@ -142,6 +97,33 @@
     "acoustic": 18,
     "drums": 0,
     "command": "!jukebox Ask Me To Dance (Acoustic)"
+  },
+  {
+    "title": "I'm Not Alone",
+    "display": "I'm Not Alone",
+    "kind": "original",
+    "takes": 17,
+    "acoustic": 7,
+    "drums": 10,
+    "command": "!jukebox I'm Not Alone"
+  },
+  {
+    "title": "Second Chances",
+    "display": "Second Chances",
+    "kind": "original",
+    "takes": 17,
+    "acoustic": 12,
+    "drums": 5,
+    "command": "!jukebox Second Chances"
+  },
+  {
+    "title": "I Dare You",
+    "display": "I Dare You",
+    "kind": "original",
+    "takes": 16,
+    "acoustic": 15,
+    "drums": 1,
+    "command": "!jukebox I Dare You"
   },
   {
     "title": "Misfits",
@@ -162,31 +144,13 @@
     "command": "!jukebox Whisper"
   },
   {
-    "title": "Get Lost",
-    "display": "Get Lost",
+    "title": "Scarlet Red",
+    "display": "Scarlet Red",
     "kind": "original",
     "takes": 14,
-    "acoustic": 9,
-    "drums": 5,
-    "command": "!jukebox Get Lost"
-  },
-  {
-    "title": "Wild Thoughts",
-    "display": "Wild Thoughts",
-    "kind": "original",
-    "takes": 14,
-    "acoustic": 5,
-    "drums": 9,
-    "command": "!jukebox Wild Thoughts"
-  },
-  {
-    "title": "Didn't I (Blow Your Mind This Time)",
-    "display": "Didn't I (Blow Your Mind This Time) by The Delfonics",
-    "kind": "cover",
-    "takes": 13,
-    "acoustic": 13,
+    "acoustic": 14,
     "drums": 0,
-    "command": "!jukebox Didn't I (Blow Your Mind This Time)"
+    "command": "!jukebox Scarlet Red"
   },
   {
     "title": "Homesick",
@@ -196,24 +160,6 @@
     "acoustic": 13,
     "drums": 0,
     "command": "!jukebox Homesick"
-  },
-  {
-    "title": "The Emptiness Machine",
-    "display": "The Emptiness Machine by Linkin Park",
-    "kind": "cover",
-    "takes": 13,
-    "acoustic": 10,
-    "drums": 3,
-    "command": "!jukebox The Emptiness Machine"
-  },
-  {
-    "title": "What's Up",
-    "display": "What's Up by 4 Non Blondes",
-    "kind": "cover",
-    "takes": 13,
-    "acoustic": 6,
-    "drums": 7,
-    "command": "!jukebox What's Up"
   },
   {
     "title": "Ballerina",
@@ -234,15 +180,6 @@
     "command": "!jukebox Danger"
   },
   {
-    "title": "Forest Fire",
-    "display": "Forest Fire",
-    "kind": "original",
-    "takes": 12,
-    "acoustic": 10,
-    "drums": 2,
-    "command": "!jukebox Forest Fire"
-  },
-  {
     "title": "I Don't Wanna Say Goodbye",
     "display": "I Don't Wanna Say Goodbye",
     "kind": "original",
@@ -250,15 +187,6 @@
     "acoustic": 12,
     "drums": 0,
     "command": "!jukebox I Don't Wanna Say Goodbye"
-  },
-  {
-    "title": "Black Hole Sun",
-    "display": "Black Hole Sun by Soundgarden",
-    "kind": "cover",
-    "takes": 11,
-    "acoustic": 8,
-    "drums": 3,
-    "command": "!jukebox Black Hole Sun"
   },
   {
     "title": "Call You Again",
@@ -270,22 +198,22 @@
     "command": "!jukebox Call You Again"
   },
   {
-    "title": "Cut the Line",
-    "display": "Cut the Line",
+    "title": "Embers Only Glow",
+    "display": "Embers Only Glow",
+    "kind": "original",
+    "takes": 11,
+    "acoustic": 11,
+    "drums": 0,
+    "command": "!jukebox Embers Only Glow"
+  },
+  {
+    "title": "Forest Fire",
+    "display": "Forest Fire",
     "kind": "original",
     "takes": 11,
     "acoustic": 10,
     "drums": 1,
-    "command": "!jukebox Cut the Line"
-  },
-  {
-    "title": "Freak on a Leash",
-    "display": "Freak on a Leash by Korn",
-    "kind": "cover",
-    "takes": 11,
-    "acoustic": 0,
-    "drums": 11,
-    "command": "!jukebox Freak on a Leash"
+    "command": "!jukebox Forest Fire"
   },
   {
     "title": "Idol",
@@ -318,100 +246,28 @@
     "title": "Chasing Storms",
     "display": "Chasing Storms",
     "kind": "original",
-    "takes": 10,
-    "acoustic": 10,
+    "takes": 9,
+    "acoustic": 9,
     "drums": 0,
     "command": "!jukebox Chasing Storms"
   },
   {
-    "title": "Come As You Are",
-    "display": "Come As You Are by Nirvana",
-    "kind": "cover",
-    "takes": 10,
-    "acoustic": 4,
-    "drums": 6,
-    "command": "!jukebox Come As You Are"
-  },
-  {
-    "title": "Boulevard of Broken Dreams",
-    "display": "Boulevard of Broken Dreams by Green Day",
-    "kind": "cover",
+    "title": "Cut the Line",
+    "display": "Cut the Line",
+    "kind": "original",
     "takes": 9,
-    "acoustic": 5,
-    "drums": 4,
-    "command": "!jukebox Boulevard of Broken Dreams"
+    "acoustic": 9,
+    "drums": 0,
+    "command": "!jukebox Cut the Line"
   },
   {
     "title": "Love You To Death",
     "display": "Love You To Death",
     "kind": "original",
-    "takes": 9,
-    "acoustic": 3,
-    "drums": 6,
-    "command": "!jukebox Love You To Death"
-  },
-  {
-    "title": "Only Happy When It Rains",
-    "display": "Only Happy When It Rains by Garbage",
-    "kind": "cover",
-    "takes": 9,
-    "acoustic": 8,
-    "drums": 1,
-    "command": "!jukebox Only Happy When It Rains"
-  },
-  {
-    "title": "Stick It (Acoustic)",
-    "display": "Stick It (Acoustic)",
-    "kind": "original",
-    "takes": 9,
-    "acoustic": 6,
-    "drums": 3,
-    "command": "!jukebox Stick It (Acoustic)"
-  },
-  {
-    "title": "That's What You Get",
-    "display": "That's What You Get by Paramore",
-    "kind": "cover",
-    "takes": 9,
-    "acoustic": 1,
-    "drums": 8,
-    "command": "!jukebox That's What You Get"
-  },
-  {
-    "title": "B.R.A.V.E.",
-    "display": "B.R.A.V.E.",
-    "kind": "original",
     "takes": 8,
     "acoustic": 3,
     "drums": 5,
-    "command": "!jukebox B.R.A.V.E."
-  },
-  {
-    "title": "Dancing in the Dark",
-    "display": "Dancing in the Dark by Bruce Springsteen",
-    "kind": "cover",
-    "takes": 8,
-    "acoustic": 8,
-    "drums": 0,
-    "command": "!jukebox Dancing in the Dark"
-  },
-  {
-    "title": "Late Night Swim",
-    "display": "Late Night Swim",
-    "kind": "original",
-    "takes": 8,
-    "acoustic": 8,
-    "drums": 0,
-    "command": "!jukebox Late Night Swim"
-  },
-  {
-    "title": "Queen of This Castle (Acoustic)",
-    "display": "Queen of This Castle (Acoustic)",
-    "kind": "original",
-    "takes": 8,
-    "acoustic": 8,
-    "drums": 0,
-    "command": "!jukebox Queen of This Castle (Acoustic)"
+    "command": "!jukebox Love You To Death"
   },
   {
     "title": "Sanctuary",
@@ -432,112 +288,40 @@
     "command": "!jukebox Confetti (Acoustic)"
   },
   {
-    "title": "Fell For A Daydreamer",
-    "display": "Fell For A Daydreamer",
+    "title": "Get Lost",
+    "display": "Get Lost",
     "kind": "original",
     "takes": 7,
-    "acoustic": 7,
-    "drums": 0,
-    "command": "!jukebox Fell For A Daydreamer"
-  },
-  {
-    "title": "Three Dot Bubble",
-    "display": "Three Dot Bubble",
-    "kind": "original",
-    "takes": 7,
-    "acoustic": 7,
-    "drums": 0,
-    "command": "!jukebox Three Dot Bubble"
-  },
-  {
-    "title": "Big Fake Smile",
-    "display": "Big Fake Smile",
-    "kind": "original",
-    "takes": 6,
     "acoustic": 6,
-    "drums": 0,
-    "command": "!jukebox Big Fake Smile"
+    "drums": 1,
+    "command": "!jukebox Get Lost"
   },
   {
-    "title": "D.O.A.",
-    "display": "D.O.A. by Foo Fighters",
-    "kind": "cover",
-    "takes": 6,
-    "acoustic": 6,
-    "drums": 0,
-    "command": "!jukebox D.O.A."
-  },
-  {
-    "title": "Don't Speak",
-    "display": "Don't Speak by No Doubt",
-    "kind": "cover",
+    "title": "B.R.A.V.E.",
+    "display": "B.R.A.V.E.",
+    "kind": "original",
     "takes": 6,
     "acoustic": 2,
     "drums": 4,
-    "command": "!jukebox Don't Speak"
+    "command": "!jukebox B.R.A.V.E."
   },
   {
-    "title": "Fly Away",
-    "display": "Fly Away by Lenny Kravitz",
-    "kind": "cover",
-    "takes": 6,
-    "acoustic": 3,
-    "drums": 3,
-    "command": "!jukebox Fly Away"
-  },
-  {
-    "title": "Love Can Happen Like This",
-    "display": "Love Can Happen Like This",
-    "kind": "original",
-    "takes": 6,
-    "acoustic": 3,
-    "drums": 3,
-    "command": "!jukebox Love Can Happen Like This"
-  },
-  {
-    "title": "No Regrets",
-    "display": "No Regrets",
-    "kind": "original",
-    "takes": 6,
-    "acoustic": 5,
-    "drums": 1,
-    "command": "!jukebox No Regrets"
-  },
-  {
-    "title": "Simon Says (Acoustic)",
-    "display": "Simon Says (Acoustic)",
+    "title": "Late Night Swim",
+    "display": "Late Night Swim",
     "kind": "original",
     "takes": 6,
     "acoustic": 6,
     "drums": 0,
-    "command": "!jukebox Simon Says (Acoustic)"
+    "command": "!jukebox Late Night Swim"
   },
   {
-    "title": "Sk8er Boi",
-    "display": "Sk8er Boi by Avril Lavigne",
-    "kind": "cover",
-    "takes": 6,
-    "acoustic": 4,
-    "drums": 2,
-    "command": "!jukebox Sk8er Boi"
-  },
-  {
-    "title": "Walking in Memphis",
-    "display": "Walking in Memphis by Marc Cohn",
-    "kind": "cover",
+    "title": "Stick It (Acoustic)",
+    "display": "Stick It (Acoustic)",
+    "kind": "original",
     "takes": 6,
     "acoustic": 5,
     "drums": 1,
-    "command": "!jukebox Walking in Memphis"
-  },
-  {
-    "title": "Day-to-Day",
-    "display": "Day-to-Day",
-    "kind": "original",
-    "takes": 5,
-    "acoustic": 4,
-    "drums": 1,
-    "command": "!jukebox Day-to-Day"
+    "command": "!jukebox Stick It (Acoustic)"
   },
   {
     "title": "Distracted",
@@ -549,33 +333,6 @@
     "command": "!jukebox Distracted"
   },
   {
-    "title": "Double Vision (Acoustic)",
-    "display": "Double Vision (Acoustic)",
-    "kind": "original",
-    "takes": 5,
-    "acoustic": 4,
-    "drums": 1,
-    "command": "!jukebox Double Vision (Acoustic)"
-  },
-  {
-    "title": "Green Light",
-    "display": "Green Light",
-    "kind": "original",
-    "takes": 5,
-    "acoustic": 4,
-    "drums": 1,
-    "command": "!jukebox Green Light"
-  },
-  {
-    "title": "Head Over Feet",
-    "display": "Head Over Feet by Alanis Morissette",
-    "kind": "cover",
-    "takes": 5,
-    "acoustic": 5,
-    "drums": 0,
-    "command": "!jukebox Head Over Feet"
-  },
-  {
     "title": "Lion's Den",
     "display": "Lion's Den",
     "kind": "original",
@@ -583,6 +340,24 @@
     "acoustic": 3,
     "drums": 2,
     "command": "!jukebox Lion's Den"
+  },
+  {
+    "title": "Love Can Happen Like This",
+    "display": "Love Can Happen Like This",
+    "kind": "original",
+    "takes": 5,
+    "acoustic": 3,
+    "drums": 2,
+    "command": "!jukebox Love Can Happen Like This"
+  },
+  {
+    "title": "Queen of This Castle (Acoustic)",
+    "display": "Queen of This Castle (Acoustic)",
+    "kind": "original",
+    "takes": 5,
+    "acoustic": 5,
+    "drums": 0,
+    "command": "!jukebox Queen of This Castle (Acoustic)"
   },
   {
     "title": "Stars Rewind",
@@ -594,22 +369,22 @@
     "command": "!jukebox Stars Rewind"
   },
   {
-    "title": "We Will Rock You",
-    "display": "We Will Rock You by Queen",
-    "kind": "cover",
-    "takes": 5,
-    "acoustic": 0,
-    "drums": 5,
-    "command": "!jukebox We Will Rock You"
-  },
-  {
-    "title": "Black Ice (Acoustic)",
-    "display": "Black Ice (Acoustic)",
+    "title": "Double Vision (Acoustic)",
+    "display": "Double Vision (Acoustic)",
     "kind": "original",
     "takes": 4,
-    "acoustic": 1,
-    "drums": 3,
-    "command": "!jukebox Black Ice (Acoustic)"
+    "acoustic": 4,
+    "drums": 0,
+    "command": "!jukebox Double Vision (Acoustic)"
+  },
+  {
+    "title": "Green Light",
+    "display": "Green Light",
+    "kind": "original",
+    "takes": 4,
+    "acoustic": 4,
+    "drums": 0,
+    "command": "!jukebox Green Light"
   },
   {
     "title": "Hex",
@@ -630,13 +405,13 @@
     "command": "!jukebox HOWL"
   },
   {
-    "title": "Out of Luck",
-    "display": "Out of Luck",
+    "title": "No Regrets",
+    "display": "No Regrets",
     "kind": "original",
     "takes": 4,
-    "acoustic": 2,
-    "drums": 2,
-    "command": "!jukebox Out of Luck"
+    "acoustic": 4,
+    "drums": 0,
+    "command": "!jukebox No Regrets"
   },
   {
     "title": "Scream Bloody Murder",
@@ -648,13 +423,22 @@
     "command": "!jukebox Scream Bloody Murder"
   },
   {
-    "title": "Breathe (2 AM)",
-    "display": "Breathe (2 AM) by Anna Nalick",
-    "kind": "cover",
+    "title": "Big Fake Smile",
+    "display": "Big Fake Smile",
+    "kind": "original",
     "takes": 3,
     "acoustic": 3,
     "drums": 0,
-    "command": "!jukebox Breathe (2 AM)"
+    "command": "!jukebox Big Fake Smile"
+  },
+  {
+    "title": "Black Ice (Acoustic)",
+    "display": "Black Ice (Acoustic)",
+    "kind": "original",
+    "takes": 3,
+    "acoustic": 1,
+    "drums": 2,
+    "command": "!jukebox Black Ice (Acoustic)"
   },
   {
     "title": "Carmelite Road",
@@ -666,22 +450,13 @@
     "command": "!jukebox Carmelite Road"
   },
   {
-    "title": "Carry On Wayward Son",
-    "display": "Carry On Wayward Son by Guano Apes",
-    "kind": "cover",
-    "takes": 3,
-    "acoustic": 0,
-    "drums": 3,
-    "command": "!jukebox Carry On Wayward Son"
-  },
-  {
-    "title": "Ghost On Fire",
-    "display": "Ghost On Fire",
+    "title": "Day-to-Day",
+    "display": "Day-to-Day",
     "kind": "original",
     "takes": 3,
     "acoustic": 3,
     "drums": 0,
-    "command": "!jukebox Ghost On Fire"
+    "command": "!jukebox Day-to-Day"
   },
   {
     "title": "Hazy",
@@ -693,49 +468,13 @@
     "command": "!jukebox Hazy"
   },
   {
-    "title": "Karma's Gonna Come",
-    "display": "Karma's Gonna Come",
-    "kind": "original",
-    "takes": 3,
-    "acoustic": 3,
-    "drums": 0,
-    "command": "!jukebox Karma's Gonna Come"
-  },
-  {
-    "title": "Red Flags",
-    "display": "Red Flags",
-    "kind": "original",
-    "takes": 3,
-    "acoustic": 3,
-    "drums": 0,
-    "command": "!jukebox Red Flags"
-  },
-  {
-    "title": "So Mundane",
-    "display": "So Mundane",
+    "title": "Out of Luck",
+    "display": "Out of Luck",
     "kind": "original",
     "takes": 3,
     "acoustic": 2,
     "drums": 1,
-    "command": "!jukebox So Mundane"
-  },
-  {
-    "title": "Too Sweet",
-    "display": "Too Sweet by Hozier",
-    "kind": "cover",
-    "takes": 3,
-    "acoustic": 0,
-    "drums": 3,
-    "command": "!jukebox Too Sweet"
-  },
-  {
-    "title": "You're My Home",
-    "display": "You're My Home",
-    "kind": "original",
-    "takes": 3,
-    "acoustic": 3,
-    "drums": 0,
-    "command": "!jukebox You're My Home"
+    "command": "!jukebox Out of Luck"
   },
   {
     "title": "Burden",
@@ -765,6 +504,15 @@
     "command": "!jukebox Don't Need To Look Back"
   },
   {
+    "title": "Fell For A Daydreamer",
+    "display": "Fell For A Daydreamer",
+    "kind": "original",
+    "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
+    "command": "!jukebox Fell For A Daydreamer"
+  },
+  {
     "title": "He's Hollywood",
     "display": "He's Hollywood",
     "kind": "original",
@@ -792,22 +540,22 @@
     "command": "!jukebox In Your Shadow"
   },
   {
-    "title": "Little Villains",
-    "display": "Little Villains",
+    "title": "Simon Says (Acoustic)",
+    "display": "Simon Says (Acoustic)",
     "kind": "original",
     "takes": 2,
     "acoustic": 2,
     "drums": 0,
-    "command": "!jukebox Little Villains"
+    "command": "!jukebox Simon Says (Acoustic)"
   },
   {
-    "title": "Stuck in Sausalito (Acoustic)",
-    "display": "Stuck in Sausalito (Acoustic)",
+    "title": "So Mundane",
+    "display": "So Mundane",
     "kind": "original",
     "takes": 2,
     "acoustic": 2,
     "drums": 0,
-    "command": "!jukebox Stuck in Sausalito (Acoustic)"
+    "command": "!jukebox So Mundane"
   },
   {
     "title": "Summer Somewhere",
@@ -837,15 +585,6 @@
     "command": "!jukebox Young Lovers"
   },
   {
-    "title": "Better Now",
-    "display": "Better Now by Post Malone",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
-    "drums": 0,
-    "command": "!jukebox Better Now"
-  },
-  {
     "title": "Flavour",
     "display": "Flavour",
     "kind": "original",
@@ -853,6 +592,33 @@
     "acoustic": 1,
     "drums": 0,
     "command": "!jukebox Flavour"
+  },
+  {
+    "title": "Ghost On Fire",
+    "display": "Ghost On Fire",
+    "kind": "original",
+    "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
+    "command": "!jukebox Ghost On Fire"
+  },
+  {
+    "title": "Karma's Gonna Come",
+    "display": "Karma's Gonna Come",
+    "kind": "original",
+    "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
+    "command": "!jukebox Karma's Gonna Come"
+  },
+  {
+    "title": "Little Villains",
+    "display": "Little Villains",
+    "kind": "original",
+    "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
+    "command": "!jukebox Little Villains"
   },
   {
     "title": "Mixtape",
@@ -873,6 +639,15 @@
     "command": "!jukebox Out of Fashion"
   },
   {
+    "title": "Red Flags",
+    "display": "Red Flags",
+    "kind": "original",
+    "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
+    "command": "!jukebox Red Flags"
+  },
+  {
     "title": "Skeletons Don't Scare Me",
     "display": "Skeletons Don't Scare Me",
     "kind": "original",
@@ -882,12 +657,21 @@
     "command": "!jukebox Skeletons Don't Scare Me"
   },
   {
-    "title": "Tired Eyes",
-    "display": "Tired Eyes",
+    "title": "Stuck in Sausalito (Acoustic)",
+    "display": "Stuck in Sausalito (Acoustic)",
     "kind": "original",
     "takes": 1,
     "acoustic": 1,
     "drums": 0,
-    "command": "!jukebox Tired Eyes"
+    "command": "!jukebox Stuck in Sausalito (Acoustic)"
+  },
+  {
+    "title": "Wild Thoughts",
+    "display": "Wild Thoughts",
+    "kind": "original",
+    "takes": 1,
+    "acoustic": 1,
+    "drums": 0,
+    "command": "!jukebox Wild Thoughts"
   }
 ]
