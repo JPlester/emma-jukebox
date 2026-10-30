@@ -29,6 +29,7 @@ h1{font-family:Helvetica,Arial,sans-serif;font-weight:600;font-size:clamp(1.8rem
 #now strong{font-family:Helvetica,Arial,sans-serif;font-weight:500;font-size:1.15rem}
 #now .who,#queue .who{color:var(--ink-3);font-size:.85rem}
 #queue{margin:0;padding:0;list-style:none}
+li.recent strong{opacity:.45}li.recent .btns button{opacity:.5}li.recent .back{display:block;color:var(--ink-3);font-size:.8rem}
 #queue li{border:0;padding:.22rem 0;display:flex;gap:.55rem;justify-content:space-between;flex-wrap:wrap;align-items:baseline}
 #queue li.empty{color:var(--ink-3)}
 #queue .n{font-family:Helvetica,Arial,sans-serif;font-weight:600;font-size:.75rem;color:var(--ink-3);min-width:1.2rem}
@@ -258,6 +259,26 @@ async function tick(){
         return '<li><span><span class="n">' + (i+1) + '</span> ' + title + '</span>' + whoLine(x.who) + '</li>';
       }).join('');
     }
+  }catch(e){}
+  // emma-jukebox-recent-20261030: grey out songs played in the last 2 hours or already queued
+  try{
+    const r = await (await fetch('https://storage.googleapis.com/jukebox.emmamcgann.com/now.json'.replace('now.json','recent.json'),{cache:'no-store'})).json();
+    const back = r.back || {}, queued = r.queued || [];
+    const norm = t => String(t||'').toLowerCase().replace(/[^a-z0-9]/g,'');
+    const b = {}; Object.keys(back).forEach(k => b[norm(k)] = back[k]);
+    const qd = {}; queued.forEach(k => qd[norm(k)] = 1);
+    items.forEach(li => {
+      const st = li.querySelector('strong'); if(!st) return;
+      const cb = li.querySelector('button[data-cmd]');
+      const k = norm(cb ? cb.getAttribute('data-cmd').replace(/^!jukebox +/i,'') : st.textContent);
+      let note = '';
+      if(qd[k]) note = 'In the queue already';
+      else if(b[k]) note = 'Played recently. Back at ' + new Date(b[k]*1000).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+      li.classList.toggle('recent', !!note);
+      let el = li.querySelector('.back');
+      if(note){ if(!el){ el = document.createElement('span'); el.className = 'back'; st.parentNode.appendChild(el); } el.textContent = note; }
+      else if(el){ el.remove(); }
+    });
   }catch(e){}
 }
 tick(); setInterval(tick, 10000);
