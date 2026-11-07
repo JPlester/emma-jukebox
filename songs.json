@@ -3,9 +3,9 @@
     "title": "With the Seasons",
     "display": "With the Seasons",
     "kind": "original",
-    "takes": 76,
-    "acoustic": 49,
-    "drums": 27,
+    "takes": 77,
+    "acoustic": 50,
+    "drums": 14,
     "command": "!jukebox With the Seasons"
   },
   {
@@ -14,7 +14,7 @@
     "kind": "original",
     "takes": 67,
     "acoustic": 37,
-    "drums": 30,
+    "drums": 28,
     "command": "!jukebox Three Dot Bubble"
   },
   {
@@ -23,7 +23,7 @@
     "kind": "original",
     "takes": 56,
     "acoustic": 8,
-    "drums": 48,
+    "drums": 34,
     "command": "!jukebox Hex"
   },
   {
@@ -32,7 +32,7 @@
     "kind": "original",
     "takes": 49,
     "acoustic": 35,
-    "drums": 14,
+    "drums": 9,
     "command": "!jukebox The Perfect Place"
   },
   {
@@ -41,7 +41,7 @@
     "kind": "original",
     "takes": 49,
     "acoustic": 10,
-    "drums": 39,
+    "drums": 4,
     "command": "!jukebox Your Last Page"
   },
   {
@@ -50,7 +50,7 @@
     "kind": "original",
     "takes": 41,
     "acoustic": 16,
-    "drums": 25,
+    "drums": 24,
     "command": "!jukebox Put Me Out"
   },
   {
@@ -59,7 +59,7 @@
     "kind": "original",
     "takes": 37,
     "acoustic": 34,
-    "drums": 3,
+    "drums": 1,
     "command": "!jukebox Don't Slow Down"
   },
   {
@@ -86,7 +86,7 @@
     "kind": "original",
     "takes": 32,
     "acoustic": 0,
-    "drums": 32,
+    "drums": 31,
     "command": "!jukebox Homesick"
   },
   {
@@ -95,7 +95,7 @@
     "kind": "original",
     "takes": 29,
     "acoustic": 14,
-    "drums": 15,
+    "drums": 9,
     "command": "!jukebox Embers Only Glow"
   },
   {
@@ -104,7 +104,7 @@
     "kind": "original",
     "takes": 28,
     "acoustic": 6,
-    "drums": 22,
+    "drums": 18,
     "command": "!jukebox Cherry On Top (LIVE)"
   },
   {
@@ -122,7 +122,7 @@
     "kind": "original",
     "takes": 28,
     "acoustic": 7,
-    "drums": 21,
+    "drums": 19,
     "command": "!jukebox Second Chances"
   },
   {
@@ -131,7 +131,7 @@
     "kind": "original",
     "takes": 27,
     "acoustic": 1,
-    "drums": 26,
+    "drums": 25,
     "command": "!jukebox Whisper"
   },
   {
@@ -140,7 +140,7 @@
     "kind": "original",
     "takes": 26,
     "acoustic": 6,
-    "drums": 20,
+    "drums": 16,
     "command": "!jukebox Fade Away"
   },
   {
@@ -149,7 +149,7 @@
     "kind": "original",
     "takes": 26,
     "acoustic": 5,
-    "drums": 21,
+    "drums": 20,
     "command": "!jukebox Get Paid"
   },
   {
@@ -158,7 +158,7 @@
     "kind": "original",
     "takes": 26,
     "acoustic": 23,
-    "drums": 3,
+    "drums": 2,
     "command": "!jukebox I Dare You"
   },
   {
@@ -176,7 +176,7 @@
     "kind": "original",
     "takes": 22,
     "acoustic": 10,
-    "drums": 12,
+    "drums": 10,
     "command": "!jukebox Can't Afford To Be In Love"
   },
   {
@@ -185,7 +185,7 @@
     "kind": "original",
     "takes": 21,
     "acoustic": 12,
-    "drums": 9,
+    "drums": 8,
     "command": "!jukebox Skeletons"
   },
   {
@@ -194,7 +194,7 @@
     "kind": "original",
     "takes": 20,
     "acoustic": 19,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Carmelite Road"
   },
   {
@@ -221,7 +221,7 @@
     "kind": "cover",
     "takes": 19,
     "acoustic": 6,
-    "drums": 13,
+    "drums": 11,
     "command": "!jukebox Before He Cheats"
   },
   {
@@ -234,12 +234,21 @@
     "command": "!jukebox Swing Life Away"
   },
   {
+    "title": "Teenage Dirtbag",
+    "display": "Teenage Dirtbag by Wheatus",
+    "kind": "cover",
+    "takes": 18,
+    "acoustic": 7,
+    "drums": 9,
+    "command": "!jukebox Teenage Dirtbag"
+  },
+  {
     "title": "Decode",
     "display": "Decode by Paramore",
     "kind": "cover",
     "takes": 15,
     "acoustic": 2,
-    "drums": 13,
+    "drums": 11,
     "command": "!jukebox Decode"
   },
   {
@@ -248,7 +257,7 @@
     "kind": "original",
     "takes": 15,
     "acoustic": 2,
-    "drums": 13,
+    "drums": 10,
     "command": "!jukebox Forest Fire"
   },
   {
@@ -257,7 +266,7 @@
     "kind": "original",
     "takes": 15,
     "acoustic": 0,
-    "drums": 15,
+    "drums": 14,
     "command": "!jukebox My Kinda Crazy"
   },
   {
@@ -266,7 +275,7 @@
     "kind": "original",
     "takes": 15,
     "acoustic": 8,
-    "drums": 7,
+    "drums": 5,
     "command": "!jukebox Red Flags"
   },
   {
@@ -284,17 +293,8 @@
     "kind": "original",
     "takes": 14,
     "acoustic": 6,
-    "drums": 8,
+    "drums": 5,
     "command": "!jukebox Ballerina"
-  },
-  {
-    "title": "teenage dirtbag",
-    "display": "teenage dirtbag by wheatus",
-    "kind": "cover",
-    "takes": 14,
-    "acoustic": 5,
-    "drums": 9,
-    "command": "!jukebox teenage dirtbag"
   },
   {
     "title": "Hoops",
@@ -311,7 +311,7 @@
     "kind": "cover",
     "takes": 13,
     "acoustic": 7,
-    "drums": 6,
+    "drums": 3,
     "command": "!jukebox Little Plastic Castle"
   },
   {
@@ -320,7 +320,7 @@
     "kind": "original",
     "takes": 12,
     "acoustic": 5,
-    "drums": 7,
+    "drums": 6,
     "command": "!jukebox Call You Again"
   },
   {
@@ -329,8 +329,17 @@
     "kind": "original",
     "takes": 12,
     "acoustic": 4,
-    "drums": 8,
+    "drums": 6,
     "command": "!jukebox Chasing Storms"
+  },
+  {
+    "title": "Counting to Sleep",
+    "display": "Counting to Sleep by Wallis Bird",
+    "kind": "cover",
+    "takes": 12,
+    "acoustic": 0,
+    "drums": 12,
+    "command": "!jukebox Counting to Sleep"
   },
   {
     "title": "Danger",
@@ -347,7 +356,7 @@
     "kind": "original",
     "takes": 12,
     "acoustic": 6,
-    "drums": 6,
+    "drums": 4,
     "command": "!jukebox Get Lost"
   },
   {
@@ -356,7 +365,7 @@
     "kind": "original",
     "takes": 12,
     "acoustic": 7,
-    "drums": 5,
+    "drums": 2,
     "command": "!jukebox I Don't Wanna Say Goodbye"
   },
   {
@@ -365,7 +374,7 @@
     "kind": "original",
     "takes": 12,
     "acoustic": 4,
-    "drums": 8,
+    "drums": 2,
     "command": "!jukebox Idol"
   },
   {
@@ -392,7 +401,7 @@
     "kind": "cover",
     "takes": 12,
     "acoustic": 3,
-    "drums": 9,
+    "drums": 8,
     "command": "!jukebox Numb"
   },
   {
@@ -401,7 +410,7 @@
     "kind": "cover",
     "takes": 12,
     "acoustic": 4,
-    "drums": 8,
+    "drums": 7,
     "command": "!jukebox Zombie"
   },
   {
@@ -428,17 +437,8 @@
     "kind": "cover",
     "takes": 11,
     "acoustic": 1,
-    "drums": 10,
+    "drums": 9,
     "command": "!jukebox Cherry Lips"
-  },
-  {
-    "title": "Counting to Sleep",
-    "display": "Counting to Sleep by Wallace Bird",
-    "kind": "cover",
-    "takes": 11,
-    "acoustic": 0,
-    "drums": 11,
-    "command": "!jukebox Counting to Sleep"
   },
   {
     "title": "Cut the Line",
@@ -446,7 +446,7 @@
     "kind": "original",
     "takes": 11,
     "acoustic": 5,
-    "drums": 6,
+    "drums": 0,
     "command": "!jukebox Cut the Line"
   },
   {
@@ -473,7 +473,7 @@
     "kind": "original",
     "takes": 11,
     "acoustic": 0,
-    "drums": 11,
+    "drums": 3,
     "command": "!jukebox Scream Bloody Murder"
   },
   {
@@ -518,7 +518,7 @@
     "kind": "cover",
     "takes": 10,
     "acoustic": 1,
-    "drums": 9,
+    "drums": 7,
     "command": "!jukebox Californication"
   },
   {
@@ -603,12 +603,21 @@
     "command": "!jukebox Late Night Swim"
   },
   {
+    "title": "Moving On and Getting Over",
+    "display": "Moving On and Getting Over by John Mayer",
+    "kind": "cover",
+    "takes": 9,
+    "acoustic": 0,
+    "drums": 9,
+    "command": "!jukebox Moving On and Getting Over"
+  },
+  {
     "title": "Queen of This Castle (Acoustic)",
     "display": "Queen of This Castle (Acoustic)",
     "kind": "original",
     "takes": 9,
     "acoustic": 5,
-    "drums": 4,
+    "drums": 2,
     "command": "!jukebox Queen of This Castle (Acoustic)"
   },
   {
@@ -644,8 +653,17 @@
     "kind": "cover",
     "takes": 8,
     "acoustic": 0,
-    "drums": 8,
+    "drums": 7,
     "command": "!jukebox All That She Wants"
+  },
+  {
+    "title": "Can't Stop",
+    "display": "Can't Stop by Red Hot Chili Peppers",
+    "kind": "cover",
+    "takes": 8,
+    "acoustic": 0,
+    "drums": 8,
+    "command": "!jukebox Can't Stop"
   },
   {
     "title": "Complicated",
@@ -662,7 +680,7 @@
     "kind": "original",
     "takes": 8,
     "acoustic": 1,
-    "drums": 7,
+    "drums": 4,
     "command": "!jukebox Confetti (Acoustic)"
   },
   {
@@ -671,7 +689,7 @@
     "kind": "cover",
     "takes": 8,
     "acoustic": 2,
-    "drums": 6,
+    "drums": 5,
     "command": "!jukebox Hand in My Pocket"
   },
   {
@@ -682,6 +700,15 @@
     "acoustic": 6,
     "drums": 2,
     "command": "!jukebox I Want You Bad"
+  },
+  {
+    "title": "I'm With You",
+    "display": "I'm With You by Avril Lavigne",
+    "kind": "cover",
+    "takes": 8,
+    "acoustic": 8,
+    "drums": 0,
+    "command": "!jukebox I'm With You"
   },
   {
     "title": "In the End",
@@ -725,7 +752,7 @@
     "kind": "cover",
     "takes": 8,
     "acoustic": 2,
-    "drums": 6,
+    "drums": 4,
     "command": "!jukebox Mobile"
   },
   {
@@ -752,7 +779,7 @@
     "kind": "original",
     "takes": 8,
     "acoustic": 6,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Sanctuary"
   },
   {
@@ -770,7 +797,7 @@
     "kind": "cover",
     "takes": 8,
     "acoustic": 4,
-    "drums": 4,
+    "drums": 2,
     "command": "!jukebox This Is Why"
   },
   {
@@ -779,7 +806,7 @@
     "kind": "cover",
     "takes": 8,
     "acoustic": 6,
-    "drums": 2,
+    "drums": 0,
     "command": "!jukebox Walk"
   },
   {
@@ -806,17 +833,8 @@
     "kind": "cover",
     "takes": 7,
     "acoustic": 2,
-    "drums": 5,
+    "drums": 2,
     "command": "!jukebox Breakfast at Tiffany's"
-  },
-  {
-    "title": "Can't Stop",
-    "display": "Can't Stop by Red Hot Chili Peppers",
-    "kind": "cover",
-    "takes": 7,
-    "acoustic": 0,
-    "drums": 7,
-    "command": "!jukebox Can't Stop"
   },
   {
     "title": "Dirty Little Secret",
@@ -824,7 +842,7 @@
     "kind": "cover",
     "takes": 7,
     "acoustic": 4,
-    "drums": 3,
+    "drums": 2,
     "command": "!jukebox Dirty Little Secret"
   },
   {
@@ -842,7 +860,7 @@
     "kind": "original",
     "takes": 7,
     "acoustic": 2,
-    "drums": 5,
+    "drums": 4,
     "command": "!jukebox HOWL"
   },
   {
@@ -860,7 +878,7 @@
     "kind": "cover",
     "takes": 7,
     "acoustic": 2,
-    "drums": 5,
+    "drums": 3,
     "command": "!jukebox Kiss Me"
   },
   {
@@ -869,8 +887,17 @@
     "kind": "cover",
     "takes": 7,
     "acoustic": 2,
-    "drums": 5,
+    "drums": 4,
     "command": "!jukebox Nobody's Home"
+  },
+  {
+    "title": "Now I'm in It",
+    "display": "Now I'm in It by HAIM",
+    "kind": "cover",
+    "takes": 7,
+    "acoustic": 0,
+    "drums": 7,
+    "command": "!jukebox Now I'm in It"
   },
   {
     "title": "Put Your Records On",
@@ -878,7 +905,7 @@
     "kind": "cover",
     "takes": 7,
     "acoustic": 0,
-    "drums": 7,
+    "drums": 6,
     "command": "!jukebox Put Your Records On"
   },
   {
@@ -905,7 +932,7 @@
     "kind": "original",
     "takes": 7,
     "acoustic": 6,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Simon Says (Acoustic)"
   },
   {
@@ -941,8 +968,17 @@
     "kind": "cover",
     "takes": 7,
     "acoustic": 1,
-    "drums": 6,
+    "drums": 4,
     "command": "!jukebox The Pretender"
+  },
+  {
+    "title": "All the Small Things",
+    "display": "All the Small Things by Blink-182",
+    "kind": "cover",
+    "takes": 6,
+    "acoustic": 2,
+    "drums": 4,
+    "command": "!jukebox All the Small Things"
   },
   {
     "title": "Baby One More Time",
@@ -977,7 +1013,7 @@
     "kind": "original",
     "takes": 6,
     "acoustic": 0,
-    "drums": 6,
+    "drums": 5,
     "command": "!jukebox Daylight Robbery (Acoustic)"
   },
   {
@@ -986,7 +1022,7 @@
     "kind": "original",
     "takes": 6,
     "acoustic": 0,
-    "drums": 6,
+    "drums": 5,
     "command": "!jukebox Distracted"
   },
   {
@@ -1013,17 +1049,8 @@
     "kind": "cover",
     "takes": 6,
     "acoustic": 2,
-    "drums": 4,
-    "command": "!jukebox Helena"
-  },
-  {
-    "title": "I'm With You",
-    "display": "I'm With You by Avril Lavigne",
-    "kind": "cover",
-    "takes": 6,
-    "acoustic": 6,
     "drums": 0,
-    "command": "!jukebox I'm With You"
+    "command": "!jukebox Helena"
   },
   {
     "title": "If I Could Turn Back Time",
@@ -1040,7 +1067,7 @@
     "kind": "cover",
     "takes": 6,
     "acoustic": 5,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Jolene"
   },
   {
@@ -1067,7 +1094,7 @@
     "kind": "cover",
     "takes": 6,
     "acoustic": 5,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox One More Light"
   },
   {
@@ -1121,7 +1148,7 @@
     "kind": "cover",
     "takes": 6,
     "acoustic": 0,
-    "drums": 6,
+    "drums": 5,
     "command": "!jukebox The Middle"
   },
   {
@@ -1130,7 +1157,7 @@
     "kind": "cover",
     "takes": 6,
     "acoustic": 3,
-    "drums": 3,
+    "drums": 2,
     "command": "!jukebox Time After Time"
   },
   {
@@ -1150,6 +1177,15 @@
     "acoustic": 0,
     "drums": 5,
     "command": "!jukebox 9 to 5"
+  },
+  {
+    "title": "Brick by Boring Brick",
+    "display": "Brick by Boring Brick by Paramore",
+    "kind": "cover",
+    "takes": 5,
+    "acoustic": 2,
+    "drums": 3,
+    "command": "!jukebox Brick by Boring Brick"
   },
   {
     "title": "Celebrity Skin",
@@ -1184,7 +1220,7 @@
     "kind": "cover",
     "takes": 5,
     "acoustic": 0,
-    "drums": 5,
+    "drums": 4,
     "command": "!jukebox Hard Times"
   },
   {
@@ -1220,7 +1256,7 @@
     "kind": "cover",
     "takes": 5,
     "acoustic": 1,
-    "drums": 4,
+    "drums": 3,
     "command": "!jukebox Iris"
   },
   {
@@ -1231,15 +1267,6 @@
     "acoustic": 5,
     "drums": 0,
     "command": "!jukebox Little Villains"
-  },
-  {
-    "title": "Moving on and Getting Over",
-    "display": "Moving on and Getting Over by John Mayer",
-    "kind": "cover",
-    "takes": 5,
-    "acoustic": 0,
-    "drums": 5,
-    "command": "!jukebox Moving on and Getting Over"
   },
   {
     "title": "Murder on the Dancefloor",
@@ -1285,6 +1312,15 @@
     "acoustic": 0,
     "drums": 5,
     "command": "!jukebox Still Feel Like Your Man"
+  },
+  {
+    "title": "This Ain't a Scene, It's an Arms Race",
+    "display": "This Ain't a Scene, It's an Arms Race by Fall Out Boy",
+    "kind": "cover",
+    "takes": 5,
+    "acoustic": 0,
+    "drums": 5,
+    "command": "!jukebox This Ain't a Scene, It's an Arms Race"
   },
   {
     "title": "This Love",
@@ -1359,13 +1395,13 @@
     "command": "!jukebox Breathe (2 AM)"
   },
   {
-    "title": "Brick by Boring Brick",
-    "display": "Brick by Boring Brick by Paramore",
+    "title": "Cardigan",
+    "display": "Cardigan by Taylor Swift",
     "kind": "cover",
     "takes": 4,
-    "acoustic": 2,
-    "drums": 2,
-    "command": "!jukebox Brick by Boring Brick"
+    "acoustic": 3,
+    "drums": 1,
+    "command": "!jukebox Cardigan"
   },
   {
     "title": "Counting Blue Cars",
@@ -1373,7 +1409,7 @@
     "kind": "cover",
     "takes": 4,
     "acoustic": 0,
-    "drums": 4,
+    "drums": 3,
     "command": "!jukebox Counting Blue Cars"
   },
   {
@@ -1391,7 +1427,7 @@
     "kind": "cover",
     "takes": 4,
     "acoustic": 2,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Disappear"
   },
   {
@@ -1409,7 +1445,7 @@
     "kind": "original",
     "takes": 4,
     "acoustic": 1,
-    "drums": 3,
+    "drums": 2,
     "command": "!jukebox Double Vision (Acoustic)"
   },
   {
@@ -1420,6 +1456,24 @@
     "acoustic": 4,
     "drums": 0,
     "command": "!jukebox Dreams"
+  },
+  {
+    "title": "Erase/Rewind",
+    "display": "Erase/Rewind by The Cardigans",
+    "kind": "cover",
+    "takes": 4,
+    "acoustic": 1,
+    "drums": 3,
+    "command": "!jukebox Erase/Rewind"
+  },
+  {
+    "title": "Good Luck, Babe!",
+    "display": "Good Luck, Babe! by Chappell Roan",
+    "kind": "cover",
+    "takes": 4,
+    "acoustic": 0,
+    "drums": 4,
+    "command": "!jukebox Good Luck, Babe!"
   },
   {
     "title": "Half the World Away",
@@ -1481,8 +1535,17 @@
     "kind": "cover",
     "takes": 4,
     "acoustic": 2,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox It's My Life"
+  },
+  {
+    "title": "Just a Day",
+    "display": "Just a Day by Feeder",
+    "kind": "cover",
+    "takes": 4,
+    "acoustic": 2,
+    "drums": 1,
+    "command": "!jukebox Just a Day"
   },
   {
     "title": "Karma's Gonna Come",
@@ -1517,7 +1580,7 @@
     "kind": "original",
     "takes": 4,
     "acoustic": 2,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Lifeboat (Acoustic)"
   },
   {
@@ -1526,7 +1589,7 @@
     "kind": "cover",
     "takes": 4,
     "acoustic": 1,
-    "drums": 3,
+    "drums": 1,
     "command": "!jukebox Lover"
   },
   {
@@ -1553,8 +1616,17 @@
     "kind": "cover",
     "takes": 4,
     "acoustic": 1,
-    "drums": 3,
+    "drums": 1,
     "command": "!jukebox Mr. Brightside"
+  },
+  {
+    "title": "Mulder and Scully",
+    "display": "Mulder and Scully by Catatonia",
+    "kind": "cover",
+    "takes": 4,
+    "acoustic": 4,
+    "drums": 0,
+    "command": "!jukebox Mulder and Scully"
   },
   {
     "title": "My Hero",
@@ -1575,15 +1647,6 @@
     "command": "!jukebox My Own Worst Enemy"
   },
   {
-    "title": "Now I'm in It",
-    "display": "Now I'm in It by Haim",
-    "kind": "cover",
-    "takes": 4,
-    "acoustic": 0,
-    "drums": 4,
-    "command": "!jukebox Now I'm in It"
-  },
-  {
     "title": "Pinch Me",
     "display": "Pinch Me by Barenaked Ladies",
     "kind": "cover",
@@ -1598,7 +1661,7 @@
     "kind": "original",
     "takes": 4,
     "acoustic": 0,
-    "drums": 4,
+    "drums": 0,
     "command": "!jukebox Rewrite"
   },
   {
@@ -1609,6 +1672,15 @@
     "acoustic": 1,
     "drums": 3,
     "command": "!jukebox Ride"
+  },
+  {
+    "title": "Say It Ain't So",
+    "display": "Say It Ain't So by Weezer",
+    "kind": "cover",
+    "takes": 4,
+    "acoustic": 2,
+    "drums": 2,
+    "command": "!jukebox Say It Ain't So"
   },
   {
     "title": "She's So High",
@@ -1674,15 +1746,6 @@
     "command": "!jukebox Tear in My Heart"
   },
   {
-    "title": "Teenage Dirtbag",
-    "display": "Teenage Dirtbag by Wheatus",
-    "kind": "cover",
-    "takes": 4,
-    "acoustic": 2,
-    "drums": 2,
-    "command": "!jukebox Teenage Dirtbag"
-  },
-  {
     "title": "That Don't Impress Me Much",
     "display": "That Don't Impress Me Much by Shania Twain",
     "kind": "cover",
@@ -1715,17 +1778,8 @@
     "kind": "cover",
     "takes": 4,
     "acoustic": 3,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox The Scientist"
-  },
-  {
-    "title": "This Ain't a Scene, It's an Arms Race",
-    "display": "This Ain't a Scene, It's an Arms Race by Fall Out Boy",
-    "kind": "cover",
-    "takes": 4,
-    "acoustic": 0,
-    "drums": 4,
-    "command": "!jukebox This Ain't a Scene, It's an Arms Race"
   },
   {
     "title": "This Year's Love",
@@ -1733,7 +1787,7 @@
     "kind": "cover",
     "takes": 4,
     "acoustic": 2,
-    "drums": 2,
+    "drums": 0,
     "command": "!jukebox This Year's Love"
   },
   {
@@ -1742,7 +1796,7 @@
     "kind": "cover",
     "takes": 4,
     "acoustic": 1,
-    "drums": 3,
+    "drums": 2,
     "command": "!jukebox Tom's Diner"
   },
   {
@@ -1791,24 +1845,6 @@
     "command": "!jukebox Alejandro"
   },
   {
-    "title": "All the Small Things",
-    "display": "All the Small Things by Blink-182",
-    "kind": "cover",
-    "takes": 3,
-    "acoustic": 1,
-    "drums": 2,
-    "command": "!jukebox All the Small Things"
-  },
-  {
-    "title": "All The Small Things",
-    "display": "All The Small Things by Blink 182",
-    "kind": "cover",
-    "takes": 3,
-    "acoustic": 1,
-    "drums": 2,
-    "command": "!jukebox All The Small Things"
-  },
-  {
     "title": "All Time Low",
     "display": "All Time Low by Jon Bellion",
     "kind": "cover",
@@ -1832,7 +1868,7 @@
     "kind": "cover",
     "takes": 3,
     "acoustic": 1,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Best of You"
   },
   {
@@ -1850,7 +1886,7 @@
     "kind": "cover",
     "takes": 3,
     "acoustic": 0,
-    "drums": 3,
+    "drums": 1,
     "command": "!jukebox Black Sheep"
   },
   {
@@ -1861,15 +1897,6 @@
     "acoustic": 3,
     "drums": 0,
     "command": "!jukebox Burden"
-  },
-  {
-    "title": "cardigan",
-    "display": "cardigan by Taylor Swift",
-    "kind": "cover",
-    "takes": 3,
-    "acoustic": 2,
-    "drums": 1,
-    "command": "!jukebox cardigan"
   },
   {
     "title": "Count to Ten",
@@ -1944,6 +1971,15 @@
     "command": "!jukebox Gravity"
   },
   {
+    "title": "Groove Is in the Heart",
+    "display": "Groove Is in the Heart by Deee-Lite",
+    "kind": "cover",
+    "takes": 3,
+    "acoustic": 1,
+    "drums": 2,
+    "command": "!jukebox Groove Is in the Heart"
+  },
+  {
     "title": "Heartbeat Song",
     "display": "Heartbeat Song by Kelly Clarkson",
     "kind": "cover",
@@ -1967,7 +2003,7 @@
     "kind": "cover",
     "takes": 3,
     "acoustic": 0,
-    "drums": 3,
+    "drums": 2,
     "command": "!jukebox I Think I'm Paranoid"
   },
   {
@@ -1996,15 +2032,6 @@
     "acoustic": 3,
     "drums": 0,
     "command": "!jukebox In Bloom"
-  },
-  {
-    "title": "Just a Day",
-    "display": "Just a Day by Feeder",
-    "kind": "cover",
-    "takes": 3,
-    "acoustic": 1,
-    "drums": 2,
-    "command": "!jukebox Just a Day"
   },
   {
     "title": "Kiss from a Rose",
@@ -2070,15 +2097,6 @@
     "command": "!jukebox Moving Day"
   },
   {
-    "title": "Mulder and Scully",
-    "display": "Mulder and Scully by Catatonia",
-    "kind": "cover",
-    "takes": 3,
-    "acoustic": 3,
-    "drums": 0,
-    "command": "!jukebox Mulder and Scully"
-  },
-  {
     "title": "No Regrets",
     "display": "No Regrets",
     "kind": "original",
@@ -2115,6 +2133,15 @@
     "command": "!jukebox Open Your Eyes"
   },
   {
+    "title": "Overcompensate",
+    "display": "Overcompensate by twenty one pilots",
+    "kind": "cover",
+    "takes": 3,
+    "acoustic": 0,
+    "drums": 3,
+    "command": "!jukebox Overcompensate"
+  },
+  {
     "title": "Pizza Day",
     "display": "Pizza Day by Echo & the Bunnymen",
     "kind": "cover",
@@ -2142,6 +2169,15 @@
     "command": "!jukebox Radioactive"
   },
   {
+    "title": "Red",
+    "display": "Red by Taylor Swift",
+    "kind": "cover",
+    "takes": 3,
+    "acoustic": 0,
+    "drums": 1,
+    "command": "!jukebox Red"
+  },
+  {
     "title": "Rehab",
     "display": "Rehab by Amy Winehouse Such",
     "kind": "cover",
@@ -2158,15 +2194,6 @@
     "acoustic": 0,
     "drums": 3,
     "command": "!jukebox Ruby"
-  },
-  {
-    "title": "Say It Ain't So",
-    "display": "Say It Ain't So by Weezer",
-    "kind": "cover",
-    "takes": 3,
-    "acoustic": 2,
-    "drums": 1,
-    "command": "!jukebox Say It Ain't So"
   },
   {
     "title": "Say My Name",
@@ -2201,7 +2228,7 @@
     "kind": "cover",
     "takes": 3,
     "acoustic": 0,
-    "drums": 3,
+    "drums": 2,
     "command": "!jukebox Secret Smile"
   },
   {
@@ -2214,12 +2241,21 @@
     "command": "!jukebox Shadow of the Day"
   },
   {
+    "title": "Shy",
+    "display": "Shy by Renee Rapp",
+    "kind": "cover",
+    "takes": 3,
+    "acoustic": 0,
+    "drums": 3,
+    "command": "!jukebox Shy"
+  },
+  {
     "title": "Single Ladies (Put a Ring on It)",
     "display": "Single Ladies (Put a Ring on It) by Beyonc\u00e9",
     "kind": "cover",
     "takes": 3,
     "acoustic": 1,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Single Ladies (Put a Ring on It)"
   },
   {
@@ -2264,7 +2300,7 @@
     "kind": "cover",
     "takes": 3,
     "acoustic": 0,
-    "drums": 3,
+    "drums": 1,
     "command": "!jukebox Stitches"
   },
   {
@@ -2322,6 +2358,15 @@
     "command": "!jukebox The Only Exception"
   },
   {
+    "title": "Through Glass",
+    "display": "Through Glass by Stone Sour",
+    "kind": "cover",
+    "takes": 3,
+    "acoustic": 2,
+    "drums": 0,
+    "command": "!jukebox Through Glass"
+  },
+  {
     "title": "Uptown Funk",
     "display": "Uptown Funk by Mark Ronson ft. Bruno Mars",
     "kind": "cover",
@@ -2345,7 +2390,7 @@
     "kind": "cover",
     "takes": 3,
     "acoustic": 1,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Watermelon Sugar"
   },
   {
@@ -2356,6 +2401,15 @@
     "acoustic": 2,
     "drums": 1,
     "command": "!jukebox What a Girl Wants"
+  },
+  {
+    "title": "What Took You So Long?",
+    "display": "What Took You So Long? by Emma Bunton",
+    "kind": "cover",
+    "takes": 3,
+    "acoustic": 2,
+    "drums": 1,
+    "command": "!jukebox What Took You So Long?"
   },
   {
     "title": "Wonderwall",
@@ -2392,6 +2446,15 @@
     "acoustic": 0,
     "drums": 3,
     "command": "!jukebox You Remind Me"
+  },
+  {
+    "title": "99.9F",
+    "display": "99.9F by Suzanne Vega",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 0,
+    "drums": 2,
+    "command": "!jukebox 99.9F"
   },
   {
     "title": "Afterglow",
@@ -2511,6 +2574,24 @@
     "command": "!jukebox Billie Jean"
   },
   {
+    "title": "Bitter Sweet Symphony",
+    "display": "Bitter Sweet Symphony by The Verve",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 0,
+    "drums": 2,
+    "command": "!jukebox Bitter Sweet Symphony"
+  },
+  {
+    "title": "Black Horse and the Cherry Tree",
+    "display": "Black Horse and the Cherry Tree by KT Tunstall",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 0,
+    "drums": 2,
+    "command": "!jukebox Black Horse and the Cherry Tree"
+  },
+  {
     "title": "Black Velvet",
     "display": "Black Velvet by Alana Miles",
     "kind": "cover",
@@ -2561,7 +2642,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Bullet with Butterfly Wings"
   },
   {
@@ -2581,6 +2662,15 @@
     "acoustic": 1,
     "drums": 1,
     "command": "!jukebox Can't Get You Out of My Head"
+  },
+  {
+    "title": "Chop Suey!",
+    "display": "Chop Suey! by System of a Down",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 0,
+    "drums": 2,
+    "command": "!jukebox Chop Suey!"
   },
   {
     "title": "Crawling",
@@ -2615,7 +2705,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Dancing in the Moonlight"
   },
   {
@@ -2637,6 +2727,15 @@
     "command": "!jukebox Dear Mr. President"
   },
   {
+    "title": "Don't You (Forget About Me)",
+    "display": "Don't You (Forget About Me) by Simple Minds",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 0,
+    "drums": 2,
+    "command": "!jukebox Don't You (Forget About Me)"
+  },
+  {
     "title": "Don\u2019t Let Me Get Me",
     "display": "Don\u2019t Let Me Get Me by P!NK",
     "kind": "cover",
@@ -2653,24 +2752,6 @@
     "acoustic": 2,
     "drums": 0,
     "command": "!jukebox Down"
-  },
-  {
-    "title": "Erase And Rewind",
-    "display": "Erase And Rewind by The Cardigans",
-    "kind": "cover",
-    "takes": 2,
-    "acoustic": 0,
-    "drums": 2,
-    "command": "!jukebox Erase And Rewind"
-  },
-  {
-    "title": "Erase Rewind",
-    "display": "Erase Rewind by The Cardigans",
-    "kind": "cover",
-    "takes": 2,
-    "acoustic": 1,
-    "drums": 1,
-    "command": "!jukebox Erase Rewind"
   },
   {
     "title": "Everywhere",
@@ -2705,7 +2786,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 0,
     "command": "!jukebox Fidelity"
   },
   {
@@ -2781,13 +2862,13 @@
     "command": "!jukebox Glue"
   },
   {
-    "title": "good luck, babe",
-    "display": "good luck, babe by Chappell Roan",
+    "title": "God Is a Woman",
+    "display": "God Is a Woman by Ariana Grande",
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
-    "command": "!jukebox good luck, babe"
+    "drums": 1,
+    "command": "!jukebox God Is a Woman"
   },
   {
     "title": "Grace Kelly",
@@ -2797,15 +2878,6 @@
     "acoustic": 0,
     "drums": 2,
     "command": "!jukebox Grace Kelly"
-  },
-  {
-    "title": "Groove Is In The Heart",
-    "display": "Groove Is In The Heart by Dee-Lite",
-    "kind": "cover",
-    "takes": 2,
-    "acoustic": 1,
-    "drums": 1,
-    "command": "!jukebox Groove Is In The Heart"
   },
   {
     "title": "Hands Down",
@@ -2835,6 +2907,24 @@
     "command": "!jukebox Havana"
   },
   {
+    "title": "Heart-Shaped Box",
+    "display": "Heart-Shaped Box by Nirvana",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 1,
+    "drums": 0,
+    "command": "!jukebox Heart-Shaped Box"
+  },
+  {
+    "title": "Heathens",
+    "display": "Heathens by twenty one pilots",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 2,
+    "drums": 0,
+    "command": "!jukebox Heathens"
+  },
+  {
     "title": "Hey Pretty",
     "display": "Hey Pretty by Poe",
     "kind": "cover",
@@ -2849,7 +2939,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Hit Me with Your Best Shot"
   },
   {
@@ -2860,6 +2950,15 @@
     "acoustic": 1,
     "drums": 1,
     "command": "!jukebox Holiday"
+  },
+  {
+    "title": "How Will I Know",
+    "display": "How Will I Know by Whitney Houston",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 0,
+    "drums": 2,
+    "command": "!jukebox How Will I Know"
   },
   {
     "title": "I Love Rock 'n' Roll",
@@ -2930,7 +3029,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 1,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox I'm Yours"
   },
   {
@@ -2957,7 +3056,7 @@
     "kind": "original",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 0,
     "command": "!jukebox In Your Shadow"
   },
   {
@@ -3020,7 +3119,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Left of Center"
   },
   {
@@ -3038,7 +3137,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 1,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Linger"
   },
   {
@@ -3065,7 +3164,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Losing My Religion"
   },
   {
@@ -3085,6 +3184,15 @@
     "acoustic": 0,
     "drums": 2,
     "command": "!jukebox Love Gets Me Every Time"
+  },
+  {
+    "title": "Love on Top",
+    "display": "Love on Top by Beyonce",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 0,
+    "drums": 2,
+    "command": "!jukebox Love on Top"
   },
   {
     "title": "Magic of the Night",
@@ -3121,24 +3229,6 @@
     "acoustic": 1,
     "drums": 1,
     "command": "!jukebox Monkey Wrench"
-  },
-  {
-    "title": "Moving On and Getting Over",
-    "display": "Moving On and Getting Over by John Mayer",
-    "kind": "cover",
-    "takes": 2,
-    "acoustic": 0,
-    "drums": 2,
-    "command": "!jukebox Moving On and Getting Over"
-  },
-  {
-    "title": "Moving On, Getting Over",
-    "display": "Moving On, Getting Over by John Mayer",
-    "kind": "cover",
-    "takes": 2,
-    "acoustic": 0,
-    "drums": 2,
-    "command": "!jukebox Moving On, Getting Over"
   },
   {
     "title": "Ms. Jackson",
@@ -3195,15 +3285,6 @@
     "command": "!jukebox Never Really Over"
   },
   {
-    "title": "Now I\u2019m In It",
-    "display": "Now I\u2019m In It by HAIM",
-    "kind": "cover",
-    "takes": 2,
-    "acoustic": 0,
-    "drums": 2,
-    "command": "!jukebox Now I\u2019m In It"
-  },
-  {
     "title": "Ocean Avenue",
     "display": "Ocean Avenue by Yellowcard",
     "kind": "cover",
@@ -3240,15 +3321,6 @@
     "command": "!jukebox Out of Touch"
   },
   {
-    "title": "overcompensate",
-    "display": "overcompensate by twenty one pilots",
-    "kind": "cover",
-    "takes": 2,
-    "acoustic": 0,
-    "drums": 2,
-    "command": "!jukebox overcompensate"
-  },
-  {
     "title": "Pacific Coast Party",
     "display": "Pacific Coast Party by Smash Mouth",
     "kind": "cover",
@@ -3258,12 +3330,21 @@
     "command": "!jukebox Pacific Coast Party"
   },
   {
+    "title": "Parklife",
+    "display": "Parklife by Blur",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 0,
+    "drums": 2,
+    "command": "!jukebox Parklife"
+  },
+  {
     "title": "Pink Pony Club",
     "display": "Pink Pony Club by Chappell Roan",
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 0,
     "command": "!jukebox Pink Pony Club"
   },
   {
@@ -3290,17 +3371,8 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 1,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Rebel Rebel"
-  },
-  {
-    "title": "red",
-    "display": "red by Taylor Swift",
-    "kind": "cover",
-    "takes": 2,
-    "acoustic": 0,
-    "drums": 2,
-    "command": "!jukebox red"
   },
   {
     "title": "Return of the Mack",
@@ -3344,7 +3416,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Running Up That Hill (A Deal with God)"
   },
   {
@@ -3366,13 +3438,13 @@
     "command": "!jukebox Self Esteem"
   },
   {
-    "title": "Shy",
-    "display": "Shy by Rene\u00e9 Rapp",
+    "title": "Sitting on the Dock of the Bay",
+    "display": "Sitting on the Dock of the Bay by Otis Redding",
     "kind": "cover",
     "takes": 2,
-    "acoustic": 0,
-    "drums": 2,
-    "command": "!jukebox Shy"
+    "acoustic": 2,
+    "drums": 0,
+    "command": "!jukebox Sitting on the Dock of the Bay"
   },
   {
     "title": "Slither",
@@ -3407,7 +3479,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Someone You Loved"
   },
   {
@@ -3488,7 +3560,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Summertime Sadness"
   },
   {
@@ -3506,7 +3578,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 1,
     "command": "!jukebox Superman"
   },
   {
@@ -3524,7 +3596,7 @@
     "kind": "original",
     "takes": 2,
     "acoustic": 1,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Temptation"
   },
   {
@@ -3618,15 +3690,6 @@
     "command": "!jukebox This Is Your Life"
   },
   {
-    "title": "Through The Glass",
-    "display": "Through The Glass by Stone Sour",
-    "kind": "cover",
-    "takes": 2,
-    "acoustic": 2,
-    "drums": 0,
-    "command": "!jukebox Through The Glass"
-  },
-  {
     "title": "Thunderstruck",
     "display": "Thunderstruck by AC/DC",
     "kind": "cover",
@@ -3650,7 +3713,7 @@
     "kind": "cover",
     "takes": 2,
     "acoustic": 0,
-    "drums": 2,
+    "drums": 0,
     "command": "!jukebox Tribute"
   },
   {
@@ -3661,6 +3724,15 @@
     "acoustic": 0,
     "drums": 2,
     "command": "!jukebox Try Again"
+  },
+  {
+    "title": "Two-Faced",
+    "display": "Two-Faced by Linkin Park",
+    "kind": "cover",
+    "takes": 2,
+    "acoustic": 0,
+    "drums": 2,
+    "command": "!jukebox Two-Faced"
   },
   {
     "title": "Umbrella",
@@ -3735,15 +3807,6 @@
     "command": "!jukebox What I Like About You"
   },
   {
-    "title": "What Took You So Long?",
-    "display": "What Took You So Long? by Emma Bunton",
-    "kind": "cover",
-    "takes": 2,
-    "acoustic": 1,
-    "drums": 1,
-    "command": "!jukebox What Took You So Long?"
-  },
-  {
     "title": "What You Waiting For?",
     "display": "What You Waiting For? by Gwen Stefani",
     "kind": "cover",
@@ -3812,7 +3875,7 @@
     "kind": "original",
     "takes": 2,
     "acoustic": 1,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Young Lovers"
   },
   {
@@ -3850,24 +3913,6 @@
     "acoustic": 0,
     "drums": 1,
     "command": "!jukebox 3AM"
-  },
-  {
-    "title": "99 9f",
-    "display": "99 9f by Suzanne Vega",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox 99 9f"
-  },
-  {
-    "title": "99.9\u00b0F",
-    "display": "99.9\u00b0F by Suzanne Vega",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox 99.9\u00b0F"
   },
   {
     "title": "A Thousand Years",
@@ -3956,7 +4001,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox All I Wanted"
   },
   {
@@ -3974,7 +4019,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Angels"
   },
   {
@@ -4217,7 +4262,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Better Man"
   },
   {
@@ -4255,42 +4300,6 @@
     "acoustic": 0,
     "drums": 1,
     "command": "!jukebox Bite Me"
-  },
-  {
-    "title": "Bitter Sweet Symphony",
-    "display": "Bitter Sweet Symphony by The Verve",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Bitter Sweet Symphony"
-  },
-  {
-    "title": "Bittersweet Symphony",
-    "display": "Bittersweet Symphony by The Verve",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Bittersweet Symphony"
-  },
-  {
-    "title": "Black Horse and a Cherry Tree",
-    "display": "Black Horse and a Cherry Tree by Kate Tunstall",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Black Horse and a Cherry Tree"
-  },
-  {
-    "title": "Black Horse and the Cherry Tree",
-    "display": "Black Horse and the Cherry Tree by KT Tunstall",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Black Horse and the Cherry Tree"
   },
   {
     "title": "Bleeding Love",
@@ -4383,15 +4392,6 @@
     "command": "!jukebox Breathe In"
   },
   {
-    "title": "brick by boring brick",
-    "display": "brick by boring brick by Paramore",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox brick by boring brick"
-  },
-  {
     "title": "Bring It All Back",
     "display": "Bring It All Back by S Club 7",
     "kind": "cover",
@@ -4415,7 +4415,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Broken"
   },
   {
@@ -4509,31 +4509,13 @@
     "command": "!jukebox Candy"
   },
   {
-    "title": "Can\u2019t Stop",
-    "display": "Can\u2019t Stop by Red Hot Chilli Peppers",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Can\u2019t Stop"
-  },
-  {
     "title": "Car Radio",
     "display": "Car Radio by twenty one pilots",
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Car Radio"
-  },
-  {
-    "title": "Cardigan",
-    "display": "Cardigan by Taylor Swift",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
     "drums": 0,
-    "command": "!jukebox Cardigan"
+    "command": "!jukebox Car Radio"
   },
   {
     "title": "Careless Whisper",
@@ -4570,24 +4552,6 @@
     "acoustic": 0,
     "drums": 1,
     "command": "!jukebox Chemistry"
-  },
-  {
-    "title": "Chop Suey",
-    "display": "Chop Suey by System of a Down",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Chop Suey"
-  },
-  {
-    "title": "Chop Suey!",
-    "display": "Chop Suey! by System of a Down",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Chop Suey!"
   },
   {
     "title": "Christmas Every Day",
@@ -4689,15 +4653,6 @@
     "command": "!jukebox Counting Stars"
   },
   {
-    "title": "Counting To Sleep",
-    "display": "Counting To Sleep by Wallis Bird",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Counting To Sleep"
-  },
-  {
     "title": "Crazy",
     "display": "Crazy by Gnarls Barkley",
     "kind": "cover",
@@ -4757,7 +4712,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Dancing On My Own"
   },
   {
@@ -4840,24 +4795,6 @@
     "acoustic": 0,
     "drums": 1,
     "command": "!jukebox Don't Start Now"
-  },
-  {
-    "title": "Don't You (Forget About Me)",
-    "display": "Don't You (Forget About Me) by Simple Minds",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Don't You (Forget About Me)"
-  },
-  {
-    "title": "Don't you forget about me",
-    "display": "Don't you forget about me by Friday",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Don't you forget about me"
   },
   {
     "title": "Don't You Want Me",
@@ -5000,7 +4937,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Fall to Pieces"
   },
   {
@@ -5063,7 +5000,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Fort Knox"
   },
   {
@@ -5144,26 +5081,8 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Glory Box"
-  },
-  {
-    "title": "God Is a Woman",
-    "display": "God Is a Woman by Ariana Grande",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox God Is a Woman"
-  },
-  {
-    "title": "God is a Woman",
-    "display": "God is a Woman by Ariana Grande",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox God is a Woman"
   },
   {
     "title": "Going to Ibiza",
@@ -5184,24 +5103,6 @@
     "command": "!jukebox Good Life"
   },
   {
-    "title": "Good Luck Babe",
-    "display": "Good Luck Babe by Chappell Roan",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Good Luck Babe"
-  },
-  {
-    "title": "good luck, babe!",
-    "display": "good luck, babe! by Chappell Roan",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox good luck, babe!"
-  },
-  {
     "title": "Grand Theft Auto",
     "display": "Grand Theft Auto by Fall Out Boy",
     "kind": "cover",
@@ -5218,15 +5119,6 @@
     "acoustic": 0,
     "drums": 1,
     "command": "!jukebox Green Garden"
-  },
-  {
-    "title": "Groove Is in the Heart",
-    "display": "Groove Is in the Heart by Deee-Lite",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Groove Is in the Heart"
   },
   {
     "title": "Groove Me",
@@ -5256,24 +5148,6 @@
     "command": "!jukebox Have Faith in Me"
   },
   {
-    "title": "Heart Shaped Box",
-    "display": "Heart Shaped Box by Nirvana",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
-    "drums": 0,
-    "command": "!jukebox Heart Shaped Box"
-  },
-  {
-    "title": "Heart-Shaped Box",
-    "display": "Heart-Shaped Box by Nirvana",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Heart-Shaped Box"
-  },
-  {
     "title": "Heartbreaker",
     "display": "Heartbreaker by Pat Benatar",
     "kind": "cover",
@@ -5281,24 +5155,6 @@
     "acoustic": 0,
     "drums": 1,
     "command": "!jukebox Heartbreaker"
-  },
-  {
-    "title": "heathens",
-    "display": "heathens by twenty one pilots",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
-    "drums": 0,
-    "command": "!jukebox heathens"
-  },
-  {
-    "title": "Heathens",
-    "display": "Heathens by twenty one pilots",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
-    "drums": 0,
-    "command": "!jukebox Heathens"
   },
   {
     "title": "Heaven Is a Place on Earth",
@@ -5481,24 +5337,6 @@
     "command": "!jukebox How to Save a Life"
   },
   {
-    "title": "How Will I Know",
-    "display": "How Will I Know by Whitney Houston",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox How Will I Know"
-  },
-  {
-    "title": "How will I know?",
-    "display": "How will I know? by Whitney",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox How will I know?"
-  },
-  {
     "title": "Hypnotic",
     "display": "Hypnotic by Dead Sara",
     "kind": "cover",
@@ -5571,15 +5409,6 @@
     "command": "!jukebox I'll Be Missing You"
   },
   {
-    "title": "I'm with You",
-    "display": "I'm with You by Avril Lavigne",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
-    "drums": 0,
-    "command": "!jukebox I'm with You"
-  },
-  {
     "title": "If I Ain't Got You",
     "display": "If I Ain't Got You by Alicia Keys",
     "kind": "cover",
@@ -5612,7 +5441,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Innocence"
   },
   {
@@ -5661,15 +5490,6 @@
     "command": "!jukebox It's Raining Men"
   },
   {
-    "title": "I\u2019m With You",
-    "display": "I\u2019m With You by Avril Lavigne",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
-    "drums": 0,
-    "command": "!jukebox I\u2019m With You"
-  },
-  {
     "title": "Jenny from the Block",
     "display": "Jenny from the Block by Jennifer Lopez",
     "kind": "cover",
@@ -5697,15 +5517,6 @@
     "command": "!jukebox Jumpsuit"
   },
   {
-    "title": "Just A Day",
-    "display": "Just A Day by Feeder",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
-    "drums": 0,
-    "command": "!jukebox Just A Day"
-  },
-  {
     "title": "Just to Be Your Man",
     "display": "Just to Be Your Man by The Doobie Brothers",
     "kind": "cover",
@@ -5729,7 +5540,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Killing Me Softly"
   },
   {
@@ -5738,7 +5549,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox kintsugi"
   },
   {
@@ -5774,7 +5585,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Leave the Pieces"
   },
   {
@@ -5783,7 +5594,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Let Her Go"
   },
   {
@@ -5801,7 +5612,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Like a Prayer"
   },
   {
@@ -5837,7 +5648,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Loner"
   },
   {
@@ -5884,24 +5695,6 @@
     "acoustic": 0,
     "drums": 1,
     "command": "!jukebox Love on the Weekend"
-  },
-  {
-    "title": "Love On Top",
-    "display": "Love On Top by Beyonc\u00e9",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Love On Top"
-  },
-  {
-    "title": "Love on Top",
-    "display": "Love on Top by Beyonc\u00e9",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Love on Top"
   },
   {
     "title": "Love Song",
@@ -6048,15 +5841,6 @@
     "command": "!jukebox Moving On Up"
   },
   {
-    "title": "Mulder & Scully",
-    "display": "Mulder & Scully by Catatonia",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
-    "drums": 0,
-    "command": "!jukebox Mulder & Scully"
-  },
-  {
     "title": "Musicology",
     "display": "Musicology by Prince",
     "kind": "cover",
@@ -6080,7 +5864,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox My Religion"
   },
   {
@@ -6116,7 +5900,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox New Divide"
   },
   {
@@ -6179,17 +5963,8 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Not the Doctor"
-  },
-  {
-    "title": "Now I'm In It",
-    "display": "Now I'm In It by HAIM",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Now I'm In It"
   },
   {
     "title": "Only Girl (In the World)",
@@ -6228,15 +6003,6 @@
     "command": "!jukebox Over Each Other"
   },
   {
-    "title": "Overcompensate",
-    "display": "Overcompensate by twenty one pilots",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Overcompensate"
-  },
-  {
     "title": "Overflow",
     "display": "Overflow by Linkin Park",
     "kind": "cover",
@@ -6253,24 +6019,6 @@
     "acoustic": 0,
     "drums": 1,
     "command": "!jukebox Paradise"
-  },
-  {
-    "title": "Park Life",
-    "display": "Park Life by Blur",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Park Life"
-  },
-  {
-    "title": "Parklife",
-    "display": "Parklife by Blur",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Parklife"
   },
   {
     "title": "People Watching",
@@ -6399,21 +6147,12 @@
     "command": "!jukebox Push the Button"
   },
   {
-    "title": "Red",
-    "display": "Red by Taylor Swift",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Red"
-  },
-  {
     "title": "Revolution",
     "display": "Revolution by MNS Zelmerl",
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Revolution"
   },
   {
@@ -6467,7 +6206,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Rusty Cage"
   },
   {
@@ -6496,15 +6235,6 @@
     "acoustic": 0,
     "drums": 1,
     "command": "!jukebox Save Your Tears"
-  },
-  {
-    "title": "Say It Ain\u2019t So",
-    "display": "Say It Ain\u2019t So by Weezer",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Say It Ain\u2019t So"
   },
   {
     "title": "Sea of No Cares",
@@ -6579,15 +6309,6 @@
     "command": "!jukebox Should I Stay or Should I Go"
   },
   {
-    "title": "shy",
-    "display": "shy by Renee Rapp",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox shy"
-  },
-  {
     "title": "Simmer",
     "display": "Simmer by Hayley Williams",
     "kind": "cover",
@@ -6595,24 +6316,6 @@
     "acoustic": 0,
     "drums": 1,
     "command": "!jukebox Simmer"
-  },
-  {
-    "title": "Sitting on the Dock of the Bay",
-    "display": "Sitting on the Dock of the Bay by Otis Redding",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
-    "drums": 0,
-    "command": "!jukebox Sitting on the Dock of the Bay"
-  },
-  {
-    "title": "Sitting On The Dock Of The Bay",
-    "display": "Sitting On The Dock Of The Bay by Otis Reading",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
-    "drums": 0,
-    "command": "!jukebox Sitting On The Dock Of The Bay"
   },
   {
     "title": "Sledgehammer",
@@ -6755,7 +6458,7 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Story of My Life"
   },
   {
@@ -7128,15 +6831,6 @@
     "command": "!jukebox They Don't Care About Us"
   },
   {
-    "title": "This Ain't a Scene It's an Arms Race",
-    "display": "This Ain't a Scene It's an Arms Race by Fall Out Boy",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox This Ain't a Scene It's an Arms Race"
-  },
-  {
     "title": "This Is Halloween",
     "display": "This Is Halloween by Marilyn Manson",
     "kind": "cover",
@@ -7162,15 +6856,6 @@
     "acoustic": 0,
     "drums": 1,
     "command": "!jukebox Thrash Unreal"
-  },
-  {
-    "title": "Through Glass",
-    "display": "Through Glass by Stone Sour",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Through Glass"
   },
   {
     "title": "Tired Eyes",
@@ -7209,30 +6894,12 @@
     "command": "!jukebox Twist My Arm"
   },
   {
-    "title": "Two Faced",
-    "display": "Two Faced by Linkin Park",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Two Faced"
-  },
-  {
-    "title": "Two-Faced",
-    "display": "Two-Faced by Linkin Park",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Two-Faced"
-  },
-  {
     "title": "Underneath Your Clothes",
     "display": "Underneath Your Clothes by Shakira",
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
+    "drums": 0,
     "command": "!jukebox Underneath Your Clothes"
   },
   {
@@ -7380,15 +7047,6 @@
     "command": "!jukebox What I Am"
   },
   {
-    "title": "What Took You So Long",
-    "display": "What Took You So Long by Emma Bunton",
-    "kind": "cover",
-    "takes": 1,
-    "acoustic": 1,
-    "drums": 0,
-    "command": "!jukebox What Took You So Long"
-  },
-  {
     "title": "When Can I See You Again",
     "display": "When Can I See You Again by Owl City",
     "kind": "cover",
@@ -7475,17 +7133,8 @@
     "kind": "cover",
     "takes": 1,
     "acoustic": 0,
-    "drums": 1,
-    "command": "!jukebox Winter Wonderland"
-  },
-  {
-    "title": "With The Seasons",
-    "display": "With The Seasons",
-    "kind": "original",
-    "takes": 1,
-    "acoustic": 1,
     "drums": 0,
-    "command": "!jukebox With The Seasons"
+    "command": "!jukebox Winter Wonderland"
   },
   {
     "title": "Woman's World",
